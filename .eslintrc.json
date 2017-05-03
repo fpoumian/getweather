@@ -9,5 +9,13 @@
     "ecmaFeatures": {
       "jsx": true
     }
+  },
+  "globals": {
+    "it": false,
+    "expect": false,
+    "describe": false,
+    "test": false,
+    "google": false,
+    "jest": false
   }
 }

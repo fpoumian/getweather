@@ -3,13 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.1",
+    "debounce": "^1.0.2",
+    "google-maps": "^3.2.1",
+    "jsonp": "^0.2.1",
+    "load-google-maps-api": "0.0.3",
+    "load-script": "latest",
     "radium": "^0.18.2",
     "react": "^15.5.4",
+    "react-async-script-loader": "^0.2.2",
     "react-dom": "^15.5.4",
-    "react-router": "^2.0.1",
+    "react-load-script": "0.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.5.2",
+    "react-router-redux": "^4.0.4",
+    "redux": "^3.5.2",
     "semantic-ui-react": "^0.68.2"
   },
   "devDependencies": {
+    "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-config-standard": "^10.2.1",
@@ -20,6 +32,7 @@
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-standard": "^3.0.1",
     "react-scripts": "0.9.5",
+    "react-test-renderer": "^15.5.4",
     "standard": "^10.0.2"
   },
   "scripts": {
