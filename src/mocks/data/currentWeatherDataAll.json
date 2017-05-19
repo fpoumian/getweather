@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": -106.49,
+    "lat": 31.76
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 29.67,
+    "pressure": 1005,
+    "humidity": 5,
+    "temp_min": 29,
+    "temp_max": 30
+  },
+  "visibility": 16093,
+  "wind": {
+    "speed": 7.2,
+    "deg": 120
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1494291480,
+  "sys": {
+    "type": 1,
+    "id": 2606,
+    "message": 0.0427,
+    "country": "US",
+    "sunrise": 1494331990,
+    "sunset": 1494381121
+  },
+  "id": 5520993,
+  "name": "El Paso",
+  "cod": 200
+}
