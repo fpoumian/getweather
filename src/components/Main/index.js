@@ -1,22 +1,43 @@
-import React, { Component } from 'react'
-import { Grid } from 'semantic-ui-react'
-import styles from './styles'
+import React from 'react'
+import { Grid,Sidebar, Segment} from 'semantic-ui-react'
+import { outerDiv, main, fullHeight } from './styles'
+import SidebarToggle from '../SidebarToggle'
+import Footer from '../Footer'
+import SidebarMenu from '../SidebarMenu'
+// import 'custom-semantic-ui/semantic/dist/semantic.css'
+import './styles.css'
 
-export class Main extends Component {
-  render () {
-    return (
-      <div className="App" style={{height: '100%'}}>
-        <main style={styles}>
-          <Grid container centered columns={1}>
-              {React.cloneElement(this.props.children, this.props)}
-          </Grid>
-        </main>
-      </div>
-    )
-  }
+const Main = props => {
+  const {sidebarVisible, handleToggleClick} = props
+  return (
+    <div className="App">
+
+      <Sidebar.Pushable as={Segment} className="sidebar-pushable">
+
+          <Sidebar
+            animation='push'
+            width='wide'
+            visible={sidebarVisible}
+            direction="right"
+            className="get-weather-sidebar"
+            onClick={handleToggleClick}
+          >
+            <SidebarMenu/>
+          </Sidebar>
+
+        <Sidebar.Pusher>
+          <div style={outerDiv}>
+            <main style={{...main, ...fullHeight}}>
+              <SidebarToggle {...props}/>
+              <Grid centered columns={1} container>
+                {React.cloneElement(props.children, props)}
+              </Grid>
+            </main>
+            <Footer/>
+          </div>
+        </Sidebar.Pusher>
+      </Sidebar.Pushable>
+    </div>
+  )
 }
-
-Main.propTypes = {}
-Main.defaultProps = {}
-
 export default Main

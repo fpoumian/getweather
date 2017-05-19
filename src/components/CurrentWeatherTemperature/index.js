@@ -1,12 +1,24 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import UnitSystemToggle from '../UnitSystemToggle'
+import styles from './styles'
 
 const CurrentWeatherTemperature = (props) => {
+  const {temperature, unitSystem} = props
   return (
-    <div>CurrentWeatherTemperature component</div>
+    <div style={styles.div}>
+      <h2 style={styles.temp}>{unitSystem === 'imperial' ? temperature.imperial : temperature.metric }</h2>
+      <UnitSystemToggle {...props} />
+    </div>
   )
 }
 
-CurrentWeatherTemperature.propTypes = {}
-CurrentWeatherTemperature.defaultProps = {}
+CurrentWeatherTemperature.propTypes = {
+  temperature: PropTypes.object.isRequired,
+  unitSystem: PropTypes.string.isRequired
+}
+CurrentWeatherTemperature.defaultProps = {
+  unitSystem: 'metric'
+}
 
 export default CurrentWeatherTemperature

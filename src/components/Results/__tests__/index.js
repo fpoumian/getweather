@@ -5,12 +5,25 @@ import Results from '../index'
 import CurrentWeather from '../../../components/CurrentWeather/index'
 import Forecast from '../../../components/Forecast/index'
 
+const props = {
+  isLoading: false,
+  results: {
+    current: {
+      data: {
+        main: {
+          temp: {}
+        }
+      }
+    }
+  }
+}
+
 describe('<Results/>', () => {
   it('renders without crashing', () => {
-    shallow(<Results location={{query: ''}} />)
+    shallow(<Results {...props} />)
   })
 
-  const wrapper = shallow(<Results location={{query: ''}} />)
+  const wrapper = shallow(<Results {...props} />)
 
   // it('renders one <CurrentWeather /> component', () => {
   //   console.log(wrapper.state('isLoading'))

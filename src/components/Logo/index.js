@@ -6,7 +6,9 @@ import logo from './logo.png'
 
 const Logo = (props) => {
   return (
-    <Image src={logo} centered />
+    <div>
+      <h1>GetWeather.org</h1>
+    </div>
   )
 }
 

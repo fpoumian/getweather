@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import * as actionCreators from '../../actions/'
-import Main from './../Main'
+import Main from '../../components/Main'
+import MainContainer from '../MainContainer'
 
 function mapStateToProps ({currentLocation}) {
   return {
@@ -14,6 +15,6 @@ function mapDispatchToProps (dispatch) {
   return bindActionCreators(actionCreators, dispatch)
 }
 
-const App = connect(mapStateToProps, mapDispatchToProps)(Main)
+const App = connect(mapStateToProps, mapDispatchToProps)(MainContainer)
 
 export default App

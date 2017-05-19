@@ -1,9 +1,9 @@
 /* eslint-disable */
 
-export const getPlaceIdsFromPredictions = (predictions) =>
+export const getPlaceIdsFromPredictions = predictions =>
   predictions.map(place => place.place_id)
 
-export const getLocationPredictions = (input, autocompleteService) => {
+export const getPlacePredictions = (input, autocompleteService) => {
   return new Promise((resolve, reject) => {
 
     if (typeof input === 'undefined' || !input) {
@@ -25,7 +25,7 @@ export const getLocationPredictions = (input, autocompleteService) => {
   })
 }
 
-export const filterNonLocalities = (predictions) => {
+export const filterNonLocalities = predictions => {
   return new Promise((resolve, reject) => {
     const filtered = predictions.filter(result => result.types.includes('locality'))
     resolve(filtered)
@@ -61,14 +61,14 @@ export const getPlaceAddressComponents = (placeDetails) =>
 
 export const getAddressComponentScope = (addressComponents, scope) => {
   // TODO: Error handling
-  const {short_name, long_name} = addressComponents.filter((component) => component.types.includes(scope)).shift()
+  const {short_name, long_name} = addressComponents.filter(component => component.types.includes(scope)).shift()
   return {
     shortName: short_name,
     longName: long_name
   }
 }
 
-export const generateLocationData = (placeDetails) => {
+export const generatePlaceData = placeDetails => {
   const addressComponents = getPlaceAddressComponents(placeDetails)
 
   return {
@@ -86,16 +86,16 @@ export const normalizeCountryShortName = (countryShortName) =>
 export const getPlacesData = (places, placeDetailsService) => {
   const promises = places.map(placeId =>
     getPlaceDetails(placeId, placeDetailsService)
-      .then(generateLocationData)
+      .then(generatePlaceData)
   )
     return Promise.all(promises)
 }
 
-export const formatLocationData = ({ locality, country, administrativeAreaLevel1 }) =>
+export const formatPlaceData = ({ locality, country, administrativeAreaLevel1 }) =>
  `${locality.longName}, ${administrativeAreaLevel1.longName}, ${country.longName}`
 
 
-export const getLocationLongNames = ({ locality, country, administrativeAreaLevel1 }) =>
+export const getPlaceLongNames = ({ locality, country, administrativeAreaLevel1 }) =>
   ({
     locality: locality.longName,
     country: country.longName,

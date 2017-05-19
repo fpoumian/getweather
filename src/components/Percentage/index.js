@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Percentage = (props) => {
+const Percentage = ({percent}) => {
   return (
-    <div>Percentage component</div>
+    <span>{percent}%</span>
   )
 }
 
-Percentage.propTypes = {}
+Percentage.propTypes = {
+  percent: PropTypes.number
+}
 Percentage.defaultProps = {}
 
 export default Percentage

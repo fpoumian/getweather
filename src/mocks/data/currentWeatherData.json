@@ -1,62 +1,42 @@
-{ "data": {
+{
   "coord": {
     "lon": -106.49,
     "lat": 31.76
   },
   "weather": [
     {
-      "id": 800,
-      "main": "Clear",
-      "description": "clear sky",
-      "icon": "02d"
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 27,
-    "pressure": 1017,
-    "humidity": 19,
-    "temp_min": 27,
-    "temp_max": 27
+    "temp": 29.67,
+    "pressure": 1005,
+    "humidity": 5,
+    "temp_min": 29,
+    "temp_max": 30
   },
   "visibility": 16093,
   "wind": {
-    "speed": 4.1,
-    "deg": 90
+    "speed": 7.2,
+    "deg": 120
   },
   "clouds": {
-    "all": 5
+    "all": 20
   },
-  "dt": 1494007080,
+  "dt": 1494291480,
   "sys": {
     "type": 1,
-    "id": 3973,
-    "message": 0.0094,
+    "id": 2606,
+    "message": 0.0427,
     "country": "US",
-    "sunrise": 1493986550,
-    "sunset": 1494035383
+    "sunrise": 1494331990,
+    "sunset": 1494381121
   },
   "id": 5520993,
   "name": "El Paso",
   "cod": 200
-},
-  "status": 200,
-  "statusText": "OK",
-  "headers": {
-    "content-type": "application/json; charset=utf-8"
-  },
-  "config": {
-    "transformRequest": {},
-    "transformResponse": {},
-    "timeout": 0,
-    "xsrfCookieName": "XSRF-TOKEN",
-    "xsrfHeaderName": "X-XSRF-TOKEN",
-    "maxContentLength": -1,
-    "headers": {
-      "Accept": "application/json, text/plain, */*"
-    },
-    "method": "get",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=El%20Paso%2C%20Texas%2C%20United%20States&units=metric&appid=910eb27da987e3bf8ac02c595204fc86"
-  },
-  "request": {}
 }

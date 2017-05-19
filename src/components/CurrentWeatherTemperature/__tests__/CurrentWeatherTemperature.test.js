@@ -4,6 +4,6 @@ import CurrentWeatherTemperature from '../index'
 
 describe('<CurrentWeatherTemperature/>', () => {
   it('renders without crashing', () => {
-    shallow(<CurrentWeatherTemperature/>)
+    shallow(<CurrentWeatherTemperature temperature={10}/>)
   })
 })

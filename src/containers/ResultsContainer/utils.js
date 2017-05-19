@@ -1,10 +1,9 @@
 import Place from '../../lib/Place'
-import { deriveWeatherData, convertCelsiusToFahrenheit, convertMsToMph } from '../../lib/utils'
 
 export const getHashSubstring = hash => hash.substring(1)
 export const validateUnitSystemHash = hash => ['#metric', '#imperial'].includes(hash)
 
-export const getUnitSystem = (hash, placeQuery) => {
+export const getUnitSystemFromRequest = (hash, placeQuery) => {
   if (validateUnitSystemHash(hash)) {
     return getHashSubstring(hash)
   } else {

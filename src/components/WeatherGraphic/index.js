@@ -1,33 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { Grid, Image } from 'semantic-ui-react'
-import placeholder from './placeholder.png'
-import Cloudy from './icons/cloudy.svg'
-import Day from './icons/day.svg'
+import { assignWeatherIcon } from './utils'
 
-const CurrentWeatherGraphic = ({weather}) => {
-  const renderWeatherGraphic = () => {
-    const {id} = weather[0]
-    console.log(id)
-    if (id === 801) {
-      return (
-        <Image src={Cloudy} centered width={200}/>
-      )
-    } else {
-      return (
-        <Image src={Day} centered width={200}/>
-      )
-    }
+class WeatherGraphic extends Component {
+  shouldComponentUpdate () {
+    return false
   }
 
-  return (
-      <Grid.Column width="8">
-        {renderWeatherGraphic()}
-        {/* <Image src={Cloudy} centered width={200}/> */}
-      </Grid.Column>
-  )
+  render () {
+    const {weather, width} = this.props
+
+    return (
+      <Image src={assignWeatherIcon(weather)} centered width={width}/>
+    )
+  }
 }
 
-CurrentWeatherGraphic.propTypes = {}
-CurrentWeatherGraphic.defaultProps = {}
+WeatherGraphic.propTypes = {
+  width: PropTypes.number,
+  weather: PropTypes.array
+}
+WeatherGraphic.defaultProps = {}
 
-export default CurrentWeatherGraphic
+export default WeatherGraphic

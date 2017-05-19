@@ -1,10 +1,10 @@
 const styles = {
-  div: {
-    marginBottom: '1rem'
-  },
-  temp: {
-    fontSize: '3.5rem'
-  }
+  marginLeft: '0.5rem',
+  position: 'relative',
+  top: '50%',
+  transform: 'translateY(-50%)',
+  height: '45px',
+  display: 'inline-block'
 }
 
 export default styles

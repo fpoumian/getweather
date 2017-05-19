@@ -1,31 +1,43 @@
 import React, { Component, PropTypes } from 'react'
-import SidebarOverlay from '../../components/SidebarOverlay'
+import Main from '../../components/Main'
 
-class SidebarOverlayContainer extends Component {
-
+class MainContainer extends Component {
   constructor (props) {
     super(props)
 
     this.state = {
-      visible: false
+      sidebarVisible: false,
+      googleScriptsLoaded: false
     }
     this.toggleVisibility = this.toggleVisibility.bind(this)
+    this.setScriptsState = this.setScriptsState.bind(this)
   }
 
   toggleVisibility () {
     this.setState({
-      visible: !this.state.visible
+      sidebarVisible: !this.state.sidebarVisible
+    })
+  }
+
+  setScriptsState (newState) {
+    this.setState({
+      googleScriptsLoaded: newState
     })
   }
 
   render () {
+    const {sidebarVisible, googleScriptsLoaded} = this.state
     return (
-      <SidebarOverlay handleToggleClick={this.toggleVisibility} visible={this.state.visible} />
+      <Main {...this.props}
+            handleToggleClick={this.toggleVisibility}
+            gScriptsLoaded={googleScriptsLoaded}
+            setScriptsState={this.setScriptsState}
+            sidebarVisible={this.state.sidebarVisible}/>
     )
   }
 }
 
-SidebarOverlayContainer.propTypes = {}
-SidebarOverlayContainer.defaultProps = {}
+MainContainer.propTypes = {}
+MainContainer.defaultProps = {}
 
-export default SidebarOverlayContainer
+export default MainContainer

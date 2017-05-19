@@ -1,20 +1,20 @@
-export default class PlaceQuery {
-  constructor ({locality, aal1, country}) {
-    if (!PlaceQuery.validate(locality, aal1, country)) {
-      throw new Error('Unable to instantiate PlaceQuery with passed arguments')
+export default class WeatherQuery {
+  constructor ({place, unitSystem, appId}) {
+    if (!WeatherQuery.validate(place, unitSystem, appId)) {
+      throw new Error('Unable to instantiate WeatherQuery with passed arguments')
     }
-    this.locality = locality
-    this.aal1 = aal1
-    this.country = country
+    this.q = place
+    this.units = unitSystem
+    this.appid = appId
   }
 
-  static validate (locality, aal1, country) {
+  static validate (place, unitSystem, appId) {
     const args = Array.prototype.slice.call(arguments)
     const invalidArgs = args.filter(arg => typeof arg === 'undefined' || arg === '')
     return invalidArgs.length === 0
   }
 
-  ToString () {
+  toString () {
     return `${this.locality}, ${this.aal1}, ${this.country}`
   }
 }

@@ -4,6 +4,6 @@ import CurrentWeatherContext from '../index'
 
 describe('<CurrentWeatherContext/>', () => {
   it('renders without crashing', () => {
-    shallow(<CurrentWeatherContext/>)
+    shallow(<CurrentWeatherContext dt={1494267384} />)
   })
 })

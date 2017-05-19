@@ -1,8 +1,7 @@
-import currentWeatherDataMetric from './currentWeatherDataMetric.json'
-import currentWeatherDataAll from './currentWeatherDataAll.json'
+import forecastData from './forecastData.json'
 
 const response = { 'data': {
-  ...currentWeatherDataMetric
+  ...forecastData
 },
   'status': 200,
   'statusText': 'OK',

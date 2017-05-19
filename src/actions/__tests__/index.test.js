@@ -1,7 +1,7 @@
 import * as actions from '../index'
 import * as types from '../../constants/action-types'
 
-describe('actions', () => {
+describe('setCurrentLocation', () => {
   it('should create an action to set current location', () => {
     const currentLocation = {
       locality: {
@@ -24,5 +24,18 @@ describe('actions', () => {
     }
 
     expect(actions.setCurrentLocation(currentLocation)).toEqual(expectedAction)
+  })
+})
+
+describe('switchUnitSystem', () => {
+  it('should create an action to switch unit system to imperial', () => {
+    const unitSystem = 'imperial'
+
+    const expectedAction = {
+      type: types.SWITCH_UNIT_SYSTEM,
+      unitSystem
+    }
+
+    expect(actions.switchUnitSystem(unitSystem)).toEqual(expectedAction)
   })
 })

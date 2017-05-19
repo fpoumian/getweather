@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import { Grid, Segment, Loader, Dimmer } from 'semantic-ui-react'
-
-import CurrentWeather from '../../components/CurrentWeather/index'
-import Forecast from '../../components/Forecast/index'
+import PropTypes from 'prop-types'
+import Results from '../../components/Results'
 import * as utils from './utils'
 import WeatherService from '../../lib/WeatherService'
 import WeatherServiceMock from '../../lib/__mocks__/WeatherService'
@@ -19,9 +17,9 @@ class ResultsContainer extends Component {
   }
 
   componentDidMount () {
-    const weatherService = new WeatherServiceMock(OPEN_WEATHER_PUBLIC_KEY)
+    const weatherService = new WeatherService(OPEN_WEATHER_PUBLIC_KEY)
     const {hash, query} = this.props.location
-    const unitSystem = utils.getUnitSystem(hash, query)
+    const unitSystem = utils.getUnitSystemFromRequest(hash, query)
     this.props.switchUnitSystem(unitSystem)
     utils.getCurrentWeatherAndForecastForPlace(weatherService, this.props.location.query, {unitSystem: 'metric'})
       .then(response => {
@@ -34,36 +32,17 @@ class ResultsContainer extends Component {
   }
 
   render () {
-    const renderResults = () => {
-      if (this.state.isLoading) {
-        return (
-          <Dimmer active inverted>
-            <Loader>Loading results...</Loader>
-          </Dimmer>
-        )
-      } else {
-        const {main, dt} = this.state.results.current.data
-        const {place} = this.state.query
-        return (
-          <div>
-            <CurrentWeather temperature={main.temp} place={place} dt={dt}/>
-            <Forecast/>
-          </div>
-        )
-      }
-    }
+    const {isLoading, results} = this.state
+    const {place} = this.state.query
 
     return (
-      <Grid.Column width={12}>
-        <Segment style={{padding: '3rem'}}>
-          {renderResults()}
-        </Segment>
-      </Grid.Column>
+    <Results isLoading={isLoading} results={results} place={place}/>
     )
   }
 }
 
-ResultsContainer.propTypes = {}
-ResultsContainer.defaultProps = {}
+ResultsContainer.propTypes = {
+  switchUnitSystem: PropTypes.func
+}
 
 export default ResultsContainer

@@ -1,14 +1,14 @@
 import {
   getPlaceIdsFromPredictions,
-  getLocationPredictions,
+  getPlacePredictions,
   getPlacesData,
   getPlaceDetails,
   getPlaceAddressComponents,
   getAddressComponentScope,
-  generateLocationData,
-  formatLocationData,
+  generatePlaceData,
+  formatPlaceData,
   filterNonLocalities,
-  getLocationLongNames
+  getPlaceLongNames
 } from '../utils'
 import predictions from '../mocks/predictions'
 import predictionsNonLocality from '../mocks/preditions-no-locality'
@@ -42,7 +42,7 @@ describe('filterNonLocalities', () => {
   })
 })
 
-describe('getLocationPredictions', () => {
+describe('getPlacePredictions', () => {
   // Setup
   const getPlacePredictionsMock = jest.fn()
     // 1
@@ -68,35 +68,35 @@ describe('getLocationPredictions', () => {
 
   it('1: should return predictions array', () => {
     expect.assertions(1)
-    return getLocationPredictions('Tor', autoCompleteService).then(result => {
+    return getPlacePredictions('Tor', autoCompleteService).then(result => {
       expect(result).toEqual(predictions)
     })
   })
 
   it('2: should reject if callback has ZERO_RESULTS status code', () => {
     expect.assertions(1)
-    return getLocationPredictions('Tor', autoCompleteService).catch(error => {
+    return getPlacePredictions('Tor', autoCompleteService).catch(error => {
       expect(error).toContain('No result was found for this request')
     })
   })
 
   it('3: should reject if callback has INVALID_REQUEST status code', () => {
     expect.assertions(1)
-    return getLocationPredictions('Tor', autoCompleteService).catch(error => {
+    return getPlacePredictions('Tor', autoCompleteService).catch(error => {
       expect(error).toContain('The request to autoCompleteService was invalid')
     })
   })
 
   it('4: should reject if input is empty', () => {
     expect.assertions(1)
-    return getLocationPredictions('', autoCompleteService).catch(error => {
+    return getPlacePredictions('', autoCompleteService).catch(error => {
       expect(error).toContain('Search query value not specified')
     })
   })
 
   test('5: mock callback function should be called at least once', () => {
     expect.assertions(1)
-    return getLocationPredictions('Tor', autoCompleteService).then(result => {
+    return getPlacePredictions('Tor', autoCompleteService).then(result => {
       expect(getPlacePredictionsMock).toBeCalled()
     })
   })
@@ -179,10 +179,10 @@ describe('getAddressComponentScope', () => {
   })
 })
 
-describe('generateLocationData', () => {
+describe('generatePlaceData', () => {
   // Test
   it('should return an object with city, state and country data', () => {
-    expect(generateLocationData(placeDetail)).toEqual(
+    expect(generatePlaceData(placeDetail)).toEqual(
       {
         locality: {
           longName: 'Toronto',
@@ -224,7 +224,7 @@ describe('getPlacesData', () => {
   })
 })
 
-describe('formatLocationData', () => {
+describe('formatPlaceData', () => {
   // Setup
   const rawLocationData = {
     locality: {
@@ -243,7 +243,7 @@ describe('formatLocationData', () => {
 
   // Test
   it('should return a correctly formated string', () => {
-    expect(formatLocationData(rawLocationData)).toEqual('Toronto, Ontario, Canada')
+    expect(formatPlaceData(rawLocationData)).toEqual('Toronto, Ontario, Canada')
   })
 })
 
@@ -266,7 +266,7 @@ describe('getLocationsLongNames', () => {
     }
 
     // Test
-    expect(getLocationLongNames(rawLocationData)).toEqual({
+    expect(getPlaceLongNames(rawLocationData)).toEqual({
       locality: 'Toronto',
       country: 'Canada',
       administrativeAreaLevel1: 'Ontario'

@@ -1,8 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Grid, Image } from 'semantic-ui-react'
+import placeholder from './placeholder.png'
+import WeatherGraphic from '../WeatherGraphic'
 
-const CurrentWeatherGraphic = (props) => {
+const CurrentWeatherGraphic = ({weather}) => {
   return (
-    <div>CurrentWeatherGraphic component</div>
+      <Grid.Column width="8">
+        <WeatherGraphic width={200} weather={weather}/>
+      </Grid.Column>
   )
 }
 

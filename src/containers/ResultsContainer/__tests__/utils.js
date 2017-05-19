@@ -16,12 +16,11 @@ describe('validateUnitSystemHash', () => {
   it('Can validate a correct unin system hash', () => {
     expect(utils.validateUnitSystemHash('#metric')).toBe(true)
     expect(utils.validateUnitSystemHash('#imperial')).toBe(true)
-    expect(utils.validateUnitSystemHash('#kelvin')).toBe(true)
     expect(utils.validateUnitSystemHash('#wrong')).toBe(false)
   })
 })
 
-describe('getUnitSystem', () => {
+describe('getUnitSystemFromRequest', () => {
   // Setup
   const place1 = {
     country: 'United States'
@@ -36,22 +35,22 @@ describe('getUnitSystem', () => {
 
   // Test
   it('Can assign an unit system using for default United States weather queries', () => {
-    expect(utils.getUnitSystem(imperial, place1)).toEqual('imperial')
+    expect(utils.getUnitSystemFromRequest(imperial, place1)).toEqual('imperial')
   })
   it('Can assign an unit system for United States weather queries using metric system', () => {
-    expect(utils.getUnitSystem(metric, place1)).toEqual('metric')
+    expect(utils.getUnitSystemFromRequest(metric, place1)).toEqual('metric')
   })
   it('Can assign an unit system for United Kingdom weather queries using metric system', () => {
-    expect(utils.getUnitSystem(metric, place2)).toEqual('metric')
+    expect(utils.getUnitSystemFromRequest(metric, place2)).toEqual('metric')
   })
   it('Can assign an unit system for United Kingdom weather queries using imperial system', () => {
-    expect(utils.getUnitSystem(imperial, place2)).toEqual('imperial')
+    expect(utils.getUnitSystemFromRequest(imperial, place2)).toEqual('imperial')
   })
   it('Can assign default imperial unit system for United States weather queries using invalid hash', () => {
-    expect(utils.getUnitSystem('#wrong', place1)).toEqual('imperial')
+    expect(utils.getUnitSystemFromRequest('#wrong', place1)).toEqual('imperial')
   })
   it('Can assign default metric unit system for United Kingdom weather queries using invalid hash', () => {
-    expect(utils.getUnitSystem('#wrong', place2)).toEqual('metric')
+    expect(utils.getUnitSystemFromRequest('#wrong', place2)).toEqual('metric')
   })
 })
 

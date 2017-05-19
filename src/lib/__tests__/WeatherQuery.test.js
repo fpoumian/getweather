@@ -1,34 +1,27 @@
-import PlaceQuery from '../PlaceQuery'
+import WeatherQuery from '../WeatherQuery'
 
-describe('PlaceQuery', () => {
+describe('WeatherQuery', () => {
   const args = {
-    locality: 'Toronto',
-    aal1: 'Ontario',
-    country: 'Canada'
+    place: 'Toronto, Ontario, Canada',
+    unitSystem: 'imperial',
+    appId: '1234567'
   }
 
   const args2 = {
-    locality: 'Toronto',
-    aal1: 'Ontario',
-    country: ''
+    unitSystem: 'imperial',
+    appId: '1234567'
   }
 
-  it('Can instantiate new PlaceQuery object', () => {
-    const query = new PlaceQuery(args)
-    expect(query).toBeInstanceOf(PlaceQuery)
+  it('Can instantiate new WeatherQuery object', () => {
+    const query = new WeatherQuery(args)
+    expect(query).toBeInstanceOf(WeatherQuery)
   })
-
   it('Can validate correct arguments', () => {
-    expect(PlaceQuery.validate(args.locality, args.aal1, args.country)).toBe(true)
+    expect(WeatherQuery.validate(args.place, args.unitSystem, args.appId)).toBe(true)
   })
-
-  it('Can invalidate incorrect arguments', () => {
-    expect(PlaceQuery.validate(args2.locality, args2.aal1, args2.country)).toBe(false)
-  })
-
   it('Can throw error to invalid init args', () => {
     expect(() => {
-      const query = new PlaceQuery(args2)
-    }).toThrow('Unable to instantiate PlaceQuery with passed arguments')
+      const query = new WeatherQuery(args2)
+    }).toThrow('Unable to instantiate WeatherQuery with passed arguments')
   })
 })

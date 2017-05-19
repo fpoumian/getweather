@@ -1,14 +1,19 @@
-import React, {
-  PropTypes
-} from 'react'
+import React, { PropTypes } from 'react'
+import {Button, Icon} from 'semantic-ui-react'
 
-const SidebarToggle = (props) => {
+const SidebarToggle = ({handleToggleClick}) => {
   return (
-    <div>Sidebar Toggle</div>
+    <div className="sidebar-toggle">
+      <Button onClick={handleToggleClick}>
+        <Icon name="sidebar" size="big"/>
+      </Button>
+    </div>
   )
 }
 
-SidebarToggle.propTypes = {}
+SidebarToggle.propTypes = {
+  handleToggleCLick: PropTypes.func
+}
 SidebarToggle.defaultProps = {}
 
 export default SidebarToggle

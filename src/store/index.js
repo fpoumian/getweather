@@ -5,7 +5,8 @@ import { browserHistory } from 'react-router'
 import rootReducer from '../reducers/index'
 
 const defaultState = {
-  currentLocation: {}
+  currentLocation: {},
+  unitSystem: 'metric'
 }
 
 const store = createStore(

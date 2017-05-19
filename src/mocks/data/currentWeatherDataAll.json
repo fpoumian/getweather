@@ -1,42 +1,54 @@
 {
-  "coord": {
-    "lon": -106.49,
-    "lat": 31.76
-  },
-  "weather": [
-    {
-      "id": 801,
-      "main": "Clouds",
-      "description": "few clouds",
-      "icon": "02n"
-    }
-  ],
   "base": "stations",
-  "main": {
-    "temp": 29.67,
-    "pressure": 1005,
-    "humidity": 5,
-    "temp_min": 29,
-    "temp_max": 30
-  },
-  "visibility": 16093,
-  "wind": {
-    "speed": 7.2,
-    "deg": 120
-  },
   "clouds": {
     "all": 20
   },
+  "cod": 200,
+  "coord": {
+    "lat": 31.76,
+    "lon": -106.49
+  },
   "dt": 1494291480,
+  "id": 5520993,
+  "main": {
+    "humidity": 5,
+    "pressure": 1005,
+    "temp": {
+      "imperial": 85.41,
+      "metric": 29.67
+    },
+    "temp_max": {
+      "imperial": 86,
+      "metric": 30
+    },
+    "temp_min": {
+      "imperial": 84.2,
+      "metric": 29
+    }
+  },
+  "name": "El Paso",
   "sys": {
-    "type": 1,
+    "country": "US",
     "id": 2606,
     "message": 0.0427,
-    "country": "US",
     "sunrise": 1494331990,
-    "sunset": 1494381121
+    "sunset": 1494381121,
+    "type": 1
   },
-  "id": 5520993,
-  "name": "El Paso",
-  "cod": 200
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "few clouds",
+      "icon": "02n",
+      "id": 801,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 120,
+    "speed": {
+      "imperial": 16.11,
+      "metric": 7.2
+    }
+  }
 }
