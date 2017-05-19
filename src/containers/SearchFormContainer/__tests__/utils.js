@@ -1,15 +1,4 @@
-import {
-  getPlaceIdsFromPredictions,
-  getPlacePredictions,
-  getPlacesData,
-  getPlaceDetails,
-  getPlaceAddressComponents,
-  getAddressComponentScope,
-  generatePlaceData,
-  formatPlaceData,
-  filterNonLocalities,
-  getPlaceLongNames
-} from '../utils'
+import * as utils from '../utils'
 import predictions from '../mocks/predictions'
 import predictionsNonLocality from '../mocks/preditions-no-locality'
 import placeDetail from '../mocks/placeDetail'
@@ -18,16 +7,16 @@ import finalLocationData from '../mocks/finalPredictionsData'
 
 describe('getPlaceIdsFromPrediction', () => {
   it('returns an array', () => {
-    expect(getPlaceIdsFromPredictions(predictions)).toBeInstanceOf(Array)
+    expect(utils.getPlaceIdsFromPredictions(predictions)).toBeInstanceOf(Array)
   })
 
   it('returns array with 2 items', () => {
-    expect(getPlaceIdsFromPredictions(predictions).length).toEqual(2)
+    expect(utils.getPlaceIdsFromPredictions(predictions).length).toEqual(2)
   })
 
   it('returns correct PlaceIds', () => {
-    expect(getPlaceIdsFromPredictions(predictions)).toContain('ChIJpTvG15DL1IkRd8S0KlBVNTI')
-    expect(getPlaceIdsFromPredictions(predictions)).toContain('ChIJJb4YZBJtiEcRv3ec1gP4A4k')
+    expect(utils.getPlaceIdsFromPredictions(predictions)).toContain('ChIJpTvG15DL1IkRd8S0KlBVNTI')
+    expect(utils.getPlaceIdsFromPredictions(predictions)).toContain('ChIJJb4YZBJtiEcRv3ec1gP4A4k')
   })
 })
 
@@ -36,7 +25,7 @@ describe('filterNonLocalities', () => {
   it('should fiter prediction results that do not have a locality specified in results data', () => {
     expect.assertions(2)
     expect(predictionsNonLocality).toHaveLength(5)
-    return filterNonLocalities(predictionsNonLocality).then(filteredResults => {
+    return utils.filterNonLocalities(predictionsNonLocality).then(filteredResults => {
       expect(filteredResults).toHaveLength(4)
     })
   })
@@ -68,35 +57,35 @@ describe('getPlacePredictions', () => {
 
   it('1: should return predictions array', () => {
     expect.assertions(1)
-    return getPlacePredictions('Tor', autoCompleteService).then(result => {
+    return utils.getPlacePredictions('Tor', autoCompleteService).then(result => {
       expect(result).toEqual(predictions)
     })
   })
 
   it('2: should reject if callback has ZERO_RESULTS status code', () => {
     expect.assertions(1)
-    return getPlacePredictions('Tor', autoCompleteService).catch(error => {
+    return utils.getPlacePredictions('Tor', autoCompleteService).catch(error => {
       expect(error).toContain('No result was found for this request')
     })
   })
 
   it('3: should reject if callback has INVALID_REQUEST status code', () => {
     expect.assertions(1)
-    return getPlacePredictions('Tor', autoCompleteService).catch(error => {
+    return utils.getPlacePredictions('Tor', autoCompleteService).catch(error => {
       expect(error).toContain('The request to autoCompleteService was invalid')
     })
   })
 
   it('4: should reject if input is empty', () => {
     expect.assertions(1)
-    return getPlacePredictions('', autoCompleteService).catch(error => {
+    return utils.getPlacePredictions('', autoCompleteService).catch(error => {
       expect(error).toContain('Search query value not specified')
     })
   })
 
   test('5: mock callback function should be called at least once', () => {
     expect.assertions(1)
-    return getPlacePredictions('Tor', autoCompleteService).then(result => {
+    return utils.getPlacePredictions('Tor', autoCompleteService).then(result => {
       expect(getPlacePredictionsMock).toBeCalled()
     })
   })
@@ -127,21 +116,21 @@ describe('getPlaceDetails', () => {
 // Tests
   it('1: should resolve with Toronto place details', () => {
     expect.assertions(1)
-    return getPlaceDetails('ChIJpTvG15DL1IkRd8S0KlBVNTI', placeDetailService).then(results => {
+    return utils.getPlaceDetails('ChIJpTvG15DL1IkRd8S0KlBVNTI', placeDetailService).then(results => {
       expect(results).toEqual(placeDetail)
     })
   })
 
   it('2: should reject if parameter placeId is empty', () => {
     expect.assertions(1)
-    return getPlaceDetails('', placeDetailService).catch(error => {
+    return utils.getPlaceDetails('', placeDetailService).catch(error => {
       expect(error).toEqual('Place ID parameter not specified')
     })
   })
 
   it('3: should reject if service returns no result', () => {
     expect.assertions(1)
-    return getPlaceDetails('ChIJpTvG15DL1IkRd8S0KlBVNTI', placeDetailService).catch(error => {
+    return utils.getPlaceDetails('ChIJpTvG15DL1IkRd8S0KlBVNTI', placeDetailService).catch(error => {
       expect(error).toEqual('No result was found for this request')
     })
   })
@@ -151,28 +140,28 @@ describe('getPlaceAddressComponents', () => {
   // Test
   it('should return addressComponents from placeDetail results', () => {
     expect.assertions(1)
-    expect(getPlaceAddressComponents(placeDetail)).toEqual(addressComponents)
+    expect(utils.getPlaceAddressComponents(placeDetail)).toEqual(addressComponents)
   })
 })
 
 describe('getAddressComponentScope', () => {
   // Test
   it('should return correct component scope data for locality', () => {
-    expect(getAddressComponentScope(addressComponents, 'locality')).toEqual({
+    expect(utils.getAddressComponentScope(addressComponents, 'locality')).toEqual({
       longName: 'Toronto',
       shortName: 'Toronto'
     })
   })
 
   it('should return correct component scope data for admin level 1', () => {
-    expect(getAddressComponentScope(addressComponents, 'administrative_area_level_1')).toEqual({
+    expect(utils.getAddressComponentScope(addressComponents, 'administrative_area_level_1')).toEqual({
       longName: 'Ontario',
       shortName: 'ON'
     })
   })
 
   it('should return correct component scope data for country', () => {
-    expect(getAddressComponentScope(addressComponents, 'country')).toEqual({
+    expect(utils.getAddressComponentScope(addressComponents, 'country')).toEqual({
       longName: 'Canada',
       shortName: 'CA'
     })
@@ -182,7 +171,7 @@ describe('getAddressComponentScope', () => {
 describe('generatePlaceData', () => {
   // Test
   it('should return an object with city, state and country data', () => {
-    expect(generatePlaceData(placeDetail)).toEqual(
+    expect(utils.generatePlaceData(placeDetail)).toEqual(
       {
         locality: {
           longName: 'Toronto',
@@ -218,7 +207,7 @@ describe('getPlacesData', () => {
   // Test
   it('should return an array of 1 place details', () => {
     expect.assertions(1)
-    return getPlacesData(places, placeDetailService).then(locationData => {
+    return utils.getPlacesData(places, placeDetailService).then(locationData => {
       expect(locationData).toEqual(finalLocationData)
     })
   })
@@ -243,7 +232,7 @@ describe('formatPlaceData', () => {
 
   // Test
   it('should return a correctly formated string', () => {
-    expect(formatPlaceData(rawLocationData)).toEqual('Toronto, Ontario, Canada')
+    expect(utils.formatPlaceData(rawLocationData)).toEqual('Toronto, Ontario, Canada')
   })
 })
 
@@ -266,7 +255,7 @@ describe('getLocationsLongNames', () => {
     }
 
     // Test
-    expect(getPlaceLongNames(rawLocationData)).toEqual({
+    expect(utils.getPlaceLongNames(rawLocationData)).toEqual({
       locality: 'Toronto',
       country: 'Canada',
       administrativeAreaLevel1: 'Ontario'

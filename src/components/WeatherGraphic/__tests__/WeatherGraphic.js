@@ -4,6 +4,11 @@ import CurrentWeatherGraphic from '../index'
 
 describe('<CurrentWeatherGraphic/>', () => {
   it('renders without crahsing', () => {
-    shallow(<CurrentWeatherGraphic/>)
+
+    const props = {
+      weather: [{}]
+    }
+
+    shallow(<CurrentWeatherGraphic {...props}/>)
   })
 })

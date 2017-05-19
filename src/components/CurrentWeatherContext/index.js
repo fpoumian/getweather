@@ -31,7 +31,8 @@ CurrentWeatherContext.propTypes = {
   dt: PropTypes.number,
   wind: PropTypes.object,
   humidity: PropTypes.number,
-  unitSystem: PropTypes.string
+  unitSystem: PropTypes.string,
+  weather: PropTypes.array
 }
 CurrentWeatherContext.defaultProps = {}
 

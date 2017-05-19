@@ -1,5 +1,6 @@
 import React from 'react'
-import { Grid,Sidebar, Segment} from 'semantic-ui-react'
+import PropTypes from 'prop-types'
+import { Grid, Sidebar, Segment} from 'semantic-ui-react'
 import { outerDiv, main, fullHeight } from './styles'
 import SidebarToggle from '../SidebarToggle'
 import Footer from '../Footer'
@@ -40,4 +41,10 @@ const Main = props => {
     </div>
   )
 }
+
+Main.propTypes = {
+  sidebarVisible: PropTypes.func,
+  handleToggleClick: PropTypes.func
+}
+
 export default Main

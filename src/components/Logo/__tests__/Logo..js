@@ -1,9 +1,9 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import SearchForm from '../index'
+import Logo from '../index'
 
-describe('<SearchForm/>', () => {
+describe('<Logo/>', () => {
   it('renders without crashing', () => {
-    shallow(<SearchForm/>)
+    shallow(<Logo/>)
   })
 })

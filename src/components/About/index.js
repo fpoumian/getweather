@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Grid } from 'semantic-ui-react'
 
 const About = (props) => {
@@ -13,8 +12,5 @@ const About = (props) => {
     </Grid.Row>
   )
 }
-
-About.propTypes = {}
-About.defaultProps = {}
 
 export default About

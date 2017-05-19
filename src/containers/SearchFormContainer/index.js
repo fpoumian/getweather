@@ -44,7 +44,7 @@ class SearchFormContainer extends Component {
       // If Google API scripts are not loaded, then load them and change state
       load('https://maps.googleapis.com/maps/api/js?key=AIzaSyB3pwql3llZAkzroK3KZb_cuS1MYMKuQOw&libraries=places', (err, script) => {
         if (err) {
-          reject(new Error('error while loading script'))
+          reject(new Error('Error while loading Google Javascript API.'))
         } else {
           resolve({loaded: true})
           this.props.setScriptsState(true)

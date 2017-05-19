@@ -1,6 +1,6 @@
 import React from 'react'
-import { Grid, Image } from 'semantic-ui-react'
-import placeholder from './placeholder.png'
+import PropTypes from 'prop-types'
+import { Grid } from 'semantic-ui-react'
 import WeatherGraphic from '../WeatherGraphic'
 
 const CurrentWeatherGraphic = ({weather}) => {
@@ -11,7 +11,8 @@ const CurrentWeatherGraphic = ({weather}) => {
   )
 }
 
-CurrentWeatherGraphic.propTypes = {}
-CurrentWeatherGraphic.defaultProps = {}
+CurrentWeatherGraphic.propTypes = {
+  weather: PropTypes.array
+}
 
 export default CurrentWeatherGraphic

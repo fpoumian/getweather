@@ -8,7 +8,6 @@ describe('sortBy', () => {
     const result = timegroup.sortByDay(list, 'timestamp')
     const keys = Object.keys(result)
     expect(keys).toHaveLength(6)
-    // expect(keys).toEqual(['12', '13', '14', '15', '16', '17'])
     expect(keys).toEqual(['Fri', 'Sat', 'Sun', 'Mon', 'Tue', 'Wed'])
   })
 })

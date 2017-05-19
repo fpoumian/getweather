@@ -1,6 +1,3 @@
-import Celsius from './Celsius'
-import Fahrenheit from './Fahrenheit'
-
 const computeFloatOperation = (value, formula) => parseFloat(formula(value).toFixed(2))
 
 export const convertFahrenheitToCelsius = value => computeFloatOperation(value, value => (value - 32) / 1.8)

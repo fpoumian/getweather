@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => {
-
   const styles = {
     position: 'absolute',
     bottom: '10px',
@@ -18,8 +17,5 @@ const Footer = (props) => {
     </div>
   )
 }
-
-Footer.propTypes = {}
-Footer.defaultProps = {}
 
 export default Footer

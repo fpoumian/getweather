@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'react-router'
-import styles from './styles'
+import PropTypes from 'prop-types'
 
 const UnitSystemToggle = ({unitSystem, switchUnitSystem}) => {
   const styles = {
@@ -18,7 +17,10 @@ const UnitSystemToggle = ({unitSystem, switchUnitSystem}) => {
   )
 }
 
-UnitSystemToggle.propTypes = {}
+UnitSystemToggle.propTypes = {
+  unitSystem: PropTypes.string,
+  switchUnitSystem: PropTypes.func
+}
 UnitSystemToggle.defaultProps = {}
 
 export default UnitSystemToggle

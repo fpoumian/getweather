@@ -1,7 +1,5 @@
 import * as utils from '../utils'
 import now from 'performance-now'
-import currentWeatherData from '../../mocks/data/currentWeatherData.json'
-import currentWeatherDataAll from '../../mocks/data/currentWeatherDataAll.json'
 
 describe('convertFahrenheitToCelsius', () => {
   it('Can convert from fahrenheit to celsius', () => {

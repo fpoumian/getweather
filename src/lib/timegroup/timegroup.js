@@ -1,8 +1,8 @@
-import _ from 'lodash'
+import { groupBy } from 'lodash'
 import moment from 'moment'
 
 export const sortByDay = (arr, key) => {
-  return _.groupBy(arr, item => {
+  return groupBy(arr, item => {
     if (!item.hasOwnProperty(key)) {
       throw new ReferenceError(`Object ${item} does not have a property named ${key}`)
     }

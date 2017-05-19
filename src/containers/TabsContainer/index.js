@@ -22,7 +22,9 @@ class TabsContainer extends Component {
   }
 }
 
-TabsContainer.propTypes = {}
+TabsContainer.propTypes = {
+  days: PropTypes.object
+}
 TabsContainer.defaultProps = {}
 
 export default TabsContainer

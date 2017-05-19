@@ -34,9 +34,7 @@ const Results = props => {
 
   return (
     <Grid.Column width={12}>
-      {/*<Segment style={{padding: '3rem'}}>*/}
         {renderResults()}
-      {/*</Segment>*/}
     </Grid.Column>
   )
 }

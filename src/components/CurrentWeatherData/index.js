@@ -5,7 +5,6 @@ import CurrentWeatherTemperature from '../CurrentWeatherTemperature'
 import CurrentWeatherContext from '../CurrentWeatherContext'
 
 const CurrentWeatherData = (props) => {
-  const {place, dt, wind, humidity, unitSystem} = props
   return (
     <Grid.Column width="8" textAlign="center" className="current-weather-data">
       <CurrentWeatherTemperature {...props} />

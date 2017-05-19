@@ -20,7 +20,4 @@ const SidebarMenu = (props) => {
   )
 }
 
-SidebarMenu.propTypes = {}
-SidebarMenu.defaultProps = {}
-
 export default SidebarMenu

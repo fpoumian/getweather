@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Grid, Image } from 'semantic-ui-react'
+import {Image } from 'semantic-ui-react'
 import { assignWeatherIcon } from './utils'
 
 class WeatherGraphic extends Component {
