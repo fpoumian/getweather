@@ -27,6 +27,9 @@
     "no-unused-vars": "off",
     "standard/object-curly-even-spacing": "off",
     "react/prop-types": 1,
-    "eol-last": 1
+    "eol-last": 1,
+    "no-debugger": 1,
+    "semi": 1,
+    "no-console": 1
   }
 }

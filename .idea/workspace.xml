@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78178394-d766-42e3-90d4-f1a4bb248f1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc.json" afterPath="$PROJECT_DIR$/.eslintrc.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/start.js" afterPath="$PROJECT_DIR$/scripts/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main/index.js" afterPath="$PROJECT_DIR$/src/components/Main/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main/styles.js" afterPath="$PROJECT_DIR$/src/components/Main/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" afterPath="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js" afterPath="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" afterPath="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/SearchFormContainer/index.js" afterPath="$PROJECT_DIR$/src/containers/SearchFormContainer/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ResultsContainer/utils.js" afterPath="$PROJECT_DIR$/src/containers/ResultsContainer/utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,31 +26,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/about/index.html">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            <state relative-caret-position="357">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="193" column="27" lean-forward="true" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
+            <state relative-caret-position="-344">
+              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paths.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/paths.js">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="69" column="43" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+            <state relative-caret-position="328">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintrc.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -75,8 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>siteFolder</find>
-      <find>fontNae</find>
       <find>amazon</find>
       <find>white</find>
       <find>primar</find>
@@ -105,6 +109,8 @@
       <find>stats</find>
       <find>WebpackDevServer</find>
       <find>Html</find>
+      <find>push</find>
+      <find>place</find>
     </findStrings>
     <replaceStrings>
       <replace>getPlacePredictions</replace>
@@ -120,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Home/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Logo/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Results/__tests__/Results.js" />
         <option value="$PROJECT_DIR$/src/components/SearchForm/__tests__/SearchForm.js" />
         <option value="$PROJECT_DIR$/src/components/SidebarMenu/index.js" />
         <option value="$PROJECT_DIR$/src/components/SidebarMenu/__tests__/SidebarMenu..js" />
@@ -139,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/components/UnitSystemToggle/index.js" />
         <option value="$PROJECT_DIR$/src/containers/App/index.js" />
         <option value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/index.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/SearchFormContainer.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/utils.js" />
@@ -162,15 +164,19 @@
         <option value="$PROJECT_DIR$/__mocks__/axios.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/index.js" />
         <option value="$PROJECT_DIR$/scripts/start.js" />
         <option value="$PROJECT_DIR$/src/components/Main/index.js" />
         <option value="$PROJECT_DIR$/src/components/Main/styles.js" />
-        <option value="$PROJECT_DIR$/.eslintrc.json" />
         <option value="$PROJECT_DIR$/public/about/index.html" />
         <option value="$PROJECT_DIR$/config/paths.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/.eslintrc.json" />
+        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/utils.js" />
+        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js" />
+        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" />
       </list>
     </option>
   </component>
@@ -279,7 +285,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ResultsContainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ResultsContainer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="__tests__" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +378,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="settings.editor.splitter.proportion" value="0.12094241" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JSON&#10;JavaScript" />
@@ -340,30 +412,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Run Jest">
-    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.utils.js (1)">
+    <configuration default="false" name="eject" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="WeatherService.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/lib/__tests__/WeatherService.js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
+        <script value="eject" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -379,11 +433,21 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="eject" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="eject" />
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -453,6 +517,129 @@
       <test-kind>DIRECTORY</test-kind>
       <test-directory />
       <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="&lt;Tabs/&gt;" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs..js" />
+      <test-names>
+        <test-name value="&lt;Tabs/&gt;" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="CurrentWeatherDataContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/CurrentWeatherDataContainer/__tests__/CurrentWeatherDataContainer..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/MainContainer/__tests__/MainContainer..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ResultsContainer.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SearchFormContainer.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/SearchFormContainer.js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Speed..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/Speed/__tests__/Speed..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tabs..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TabsContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/TabsContainer/__tests__/TabsContainer..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TimeForecast..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/TimeForecast/__tests__/TimeForecast..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TimeForecastWeather..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/TimeForecastWeather/__tests__/TimeForecastWeather..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TimeForecastWeatherContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/TimeForecastWeatherContainer/__tests__/TimeForecastWeatherContainer..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitSystemToggle..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/UnitSystemToggle/__tests__/UnitSystemToggle..js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WeatherGraphic.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/WeatherGraphic.js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="utils.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/utils.js" />
+      <method />
+    </configuration>
+    <configuration default="false" name="utils.js (2)" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/components/Tabs/__tests__/utils.js" />
       <method />
     </configuration>
     <configuration default="false" name="Run Jest" type="JavaScriptTestRunnerJest" factoryName="Jest">
@@ -618,6 +805,14 @@
       </EXTENSION>
       <method />
     </configuration>
+    <configuration default="false" name="utils.js (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js" />
+      <method />
+    </configuration>
     <configuration default="false" name="About" type="JavaScriptTestRunnerJest" factoryName="Jest">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
@@ -738,190 +933,66 @@
       <test-file value="$PROJECT_DIR$/src/components/SidebarToggle/__tests__/SidebarToggle..js" />
       <method />
     </configuration>
-    <configuration default="false" name="WeatherGraphic.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/WeatherGraphic.js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="utils.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/utils.js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Speed..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/Speed/__tests__/Speed..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="&lt;Tabs/&gt;" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs..js" />
-      <test-names>
-        <test-name value="&lt;Tabs/&gt;" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="Tabs..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="utils.js (2)" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/Tabs/__tests__/utils.js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TimeForecast..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/TimeForecast/__tests__/TimeForecast..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TimeForecastWeather..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/TimeForecastWeather/__tests__/TimeForecastWeather..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnitSystemToggle..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/components/UnitSystemToggle/__tests__/UnitSystemToggle..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CurrentWeatherDataContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/containers/CurrentWeatherDataContainer/__tests__/CurrentWeatherDataContainer..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/containers/MainContainer/__tests__/MainContainer..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ResultsContainer.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SearchFormContainer.js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/SearchFormContainer.js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TabsContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/containers/TabsContainer/__tests__/TabsContainer..js" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TimeForecastWeatherContainer..js" type="JavaScriptTestRunnerJest" factoryName="Jest" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/containers/TimeForecastWeatherContainer/__tests__/TimeForecastWeatherContainer..js" />
-      <method />
-    </configuration>
     <list size="52">
-      <item index="0" class="java.lang.String" itemvalue="Jest.Run Jest" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.PlaceQuery.test.js" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.WeatherQuery.Can instantiate new WeatherQuery object" />
-      <item index="3" class="java.lang.String" itemvalue="Jest.WeatherQuery" />
-      <item index="4" class="java.lang.String" itemvalue="Jest.getCurrentWeather.Can return a correct CurrentWeather response object" />
-      <item index="5" class="java.lang.String" itemvalue="Jest.utils.test.js" />
-      <item index="6" class="java.lang.String" itemvalue="Jest.CurrentWeatherTemperature.test.js" />
-      <item index="7" class="java.lang.String" itemvalue="Jest.CurrentWeatherContext.test.js" />
-      <item index="8" class="java.lang.String" itemvalue="Jest.Temperature.test.js" />
-      <item index="9" class="java.lang.String" itemvalue="Jest.utils.test.js (1)" />
-      <item index="10" class="java.lang.String" itemvalue="Jest.index.test.js" />
-      <item index="11" class="java.lang.String" itemvalue="Jest.unitSystem.test.js" />
-      <item index="12" class="java.lang.String" itemvalue="Jest.CurrentWeather.test.js" />
-      <item index="13" class="java.lang.String" itemvalue="Jest.index.js" />
-      <item index="14" class="java.lang.String" itemvalue="Jest.index..js" />
-      <item index="15" class="java.lang.String" itemvalue="Jest.timegroup.test.js" />
-      <item index="16" class="java.lang.String" itemvalue="Node.js.timegroup.js" />
-      <item index="17" class="java.lang.String" itemvalue="Jest.About" />
-      <item index="18" class="java.lang.String" itemvalue="Jest.CurrentWeatherGraphic.js" />
-      <item index="19" class="java.lang.String" itemvalue="Jest.CurrentWeatherTemperature.js" />
-      <item index="20" class="java.lang.String" itemvalue="Jest.Date..js" />
-      <item index="21" class="java.lang.String" itemvalue="Jest.DayForecast..js" />
-      <item index="22" class="java.lang.String" itemvalue="Jest.Footer..js" />
-      <item index="23" class="java.lang.String" itemvalue="Jest.Forecast.js" />
-      <item index="24" class="java.lang.String" itemvalue="Jest.Home.js" />
-      <item index="25" class="java.lang.String" itemvalue="Jest.Logo..js" />
-      <item index="26" class="java.lang.String" itemvalue="Jest.Main.js" />
-      <item index="27" class="java.lang.String" itemvalue="Jest.Percentage..js" />
-      <item index="28" class="java.lang.String" itemvalue="Jest.Results.js" />
-      <item index="29" class="java.lang.String" itemvalue="Jest.SearchForm.js" />
-      <item index="30" class="java.lang.String" itemvalue="Jest.SidebarMenu..js" />
-      <item index="31" class="java.lang.String" itemvalue="Jest.SidebarToggle..js" />
-      <item index="32" class="java.lang.String" itemvalue="Jest.WeatherGraphic.js" />
-      <item index="33" class="java.lang.String" itemvalue="Jest.utils.js" />
-      <item index="34" class="java.lang.String" itemvalue="Jest.Speed..js" />
-      <item index="35" class="java.lang.String" itemvalue="Jest.&lt;Tabs/&gt;" />
-      <item index="36" class="java.lang.String" itemvalue="Jest.Tabs..js" />
-      <item index="37" class="java.lang.String" itemvalue="Jest.utils.js (2)" />
-      <item index="38" class="java.lang.String" itemvalue="Jest.TimeForecast..js" />
-      <item index="39" class="java.lang.String" itemvalue="Jest.TimeForecastWeather..js" />
-      <item index="40" class="java.lang.String" itemvalue="Jest.UnitSystemToggle..js" />
-      <item index="41" class="java.lang.String" itemvalue="Jest.CurrentWeatherDataContainer..js" />
-      <item index="42" class="java.lang.String" itemvalue="Jest.MainContainer..js" />
-      <item index="43" class="java.lang.String" itemvalue="Jest.ResultsContainer.js" />
-      <item index="44" class="java.lang.String" itemvalue="Jest.SearchFormContainer.js" />
-      <item index="45" class="java.lang.String" itemvalue="Jest.TabsContainer..js" />
-      <item index="46" class="java.lang.String" itemvalue="Jest.TimeForecastWeatherContainer..js" />
-      <item index="47" class="java.lang.String" itemvalue="npm.start" />
-      <item index="48" class="java.lang.String" itemvalue="Jest.WeatherService.js" />
-      <item index="49" class="java.lang.String" itemvalue="npm.build" />
-      <item index="50" class="java.lang.String" itemvalue="npm.serve" />
-      <item index="51" class="java.lang.String" itemvalue="npm.eject" />
+      <item index="0" class="java.lang.String" itemvalue="Jest.&lt;Tabs/&gt;" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.CurrentWeatherDataContainer..js" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.MainContainer..js" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.ResultsContainer.js" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.SearchFormContainer.js" />
+      <item index="5" class="java.lang.String" itemvalue="Jest.Speed..js" />
+      <item index="6" class="java.lang.String" itemvalue="Jest.Tabs..js" />
+      <item index="7" class="java.lang.String" itemvalue="Jest.TabsContainer..js" />
+      <item index="8" class="java.lang.String" itemvalue="Jest.TimeForecast..js" />
+      <item index="9" class="java.lang.String" itemvalue="Jest.TimeForecastWeather..js" />
+      <item index="10" class="java.lang.String" itemvalue="Jest.TimeForecastWeatherContainer..js" />
+      <item index="11" class="java.lang.String" itemvalue="Jest.UnitSystemToggle..js" />
+      <item index="12" class="java.lang.String" itemvalue="Jest.WeatherGraphic.js" />
+      <item index="13" class="java.lang.String" itemvalue="Jest.utils.js" />
+      <item index="14" class="java.lang.String" itemvalue="Jest.utils.js (2)" />
+      <item index="15" class="java.lang.String" itemvalue="Jest.Run Jest" />
+      <item index="16" class="java.lang.String" itemvalue="Jest.PlaceQuery.test.js" />
+      <item index="17" class="java.lang.String" itemvalue="Jest.WeatherQuery.Can instantiate new WeatherQuery object" />
+      <item index="18" class="java.lang.String" itemvalue="Jest.WeatherQuery" />
+      <item index="19" class="java.lang.String" itemvalue="Jest.getCurrentWeather.Can return a correct CurrentWeather response object" />
+      <item index="20" class="java.lang.String" itemvalue="Jest.utils.test.js" />
+      <item index="21" class="java.lang.String" itemvalue="Jest.CurrentWeatherTemperature.test.js" />
+      <item index="22" class="java.lang.String" itemvalue="Jest.CurrentWeatherContext.test.js" />
+      <item index="23" class="java.lang.String" itemvalue="Jest.Temperature.test.js" />
+      <item index="24" class="java.lang.String" itemvalue="Jest.utils.test.js (1)" />
+      <item index="25" class="java.lang.String" itemvalue="Jest.index.test.js" />
+      <item index="26" class="java.lang.String" itemvalue="Jest.unitSystem.test.js" />
+      <item index="27" class="java.lang.String" itemvalue="Jest.CurrentWeather.test.js" />
+      <item index="28" class="java.lang.String" itemvalue="Jest.index.js" />
+      <item index="29" class="java.lang.String" itemvalue="Jest.index..js" />
+      <item index="30" class="java.lang.String" itemvalue="Jest.timegroup.test.js" />
+      <item index="31" class="java.lang.String" itemvalue="Node.js.timegroup.js" />
+      <item index="32" class="java.lang.String" itemvalue="Jest.utils.js (1)" />
+      <item index="33" class="java.lang.String" itemvalue="Jest.About" />
+      <item index="34" class="java.lang.String" itemvalue="Jest.CurrentWeatherGraphic.js" />
+      <item index="35" class="java.lang.String" itemvalue="Jest.CurrentWeatherTemperature.js" />
+      <item index="36" class="java.lang.String" itemvalue="Jest.Date..js" />
+      <item index="37" class="java.lang.String" itemvalue="Jest.DayForecast..js" />
+      <item index="38" class="java.lang.String" itemvalue="Jest.Footer..js" />
+      <item index="39" class="java.lang.String" itemvalue="Jest.Forecast.js" />
+      <item index="40" class="java.lang.String" itemvalue="Jest.Home.js" />
+      <item index="41" class="java.lang.String" itemvalue="Jest.Logo..js" />
+      <item index="42" class="java.lang.String" itemvalue="Jest.Main.js" />
+      <item index="43" class="java.lang.String" itemvalue="Jest.Percentage..js" />
+      <item index="44" class="java.lang.String" itemvalue="Jest.Results.js" />
+      <item index="45" class="java.lang.String" itemvalue="Jest.SearchForm.js" />
+      <item index="46" class="java.lang.String" itemvalue="Jest.SidebarMenu..js" />
+      <item index="47" class="java.lang.String" itemvalue="Jest.SidebarToggle..js" />
+      <item index="48" class="java.lang.String" itemvalue="npm.eject" />
+      <item index="49" class="java.lang.String" itemvalue="npm.serve" />
+      <item index="50" class="java.lang.String" itemvalue="npm.start" />
+      <item index="51" class="java.lang.String" itemvalue="npm.build" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="npm.start" />
-        <item index="1" class="java.lang.String" itemvalue="npm.eject" />
-        <item index="2" class="java.lang.String" itemvalue="npm.serve" />
-        <item index="3" class="java.lang.String" itemvalue="npm.build" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.WeatherService.js" />
+        <item index="1" class="java.lang.String" itemvalue="npm.serve" />
+        <item index="2" class="java.lang.String" itemvalue="npm.build" />
+        <item index="3" class="java.lang.String" itemvalue="npm.eject" />
       </list>
     </recent_temporary>
   </component>
@@ -977,44 +1048,44 @@
       <workItem from="1495127013178" duration="25172000" />
       <workItem from="1495169401590" duration="571000" />
       <workItem from="1495170761318" duration="4373000" />
-      <workItem from="1495213045800" duration="25917000" />
+      <workItem from="1495213045800" duration="30903000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_Jest - 2017.05.19 at 18h 32m 11s.xml">
-      <configuration name="Run Jest" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 48m 37s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherService_js - 2017.05.19 at 18h 00m 35s.xml">
-      <configuration name="WeatherService.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 49m 54s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="WeatherService_js - 2017.05.19 at 18h 02m 01s.xml">
-      <configuration name="WeatherService.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 50m 23s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 30m 26s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 50m 49s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 33m 33s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 50m 54s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 33m 43s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 51m 05s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 34m 38s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 54m 09s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 36m 37s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 55m 17s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 43m 52s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 55m 32s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 46m 57s.xml">
-      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="utils_js_(1) - 2017.05.19 at 22h 56m 04s.xml">
+      <configuration name="utils.js (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="532023000" />
+    <option name="totallyTimeSpent" value="537009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1087,46 +1158,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5544">
-          <caret line="264" column="0" lean-forward="true" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/_SidebarOverlayContainer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/TabsContainer/__tests__/TabsContainer..js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1381,16 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Results/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1424,14 +1445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="191" column="21" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1455,14 +1468,6 @@
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SearchFormContainer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,26 +1503,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/about/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Results/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1530,10 +1527,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SearchFormContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="193" column="27" lean-forward="true" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
+        <state relative-caret-position="261">
+          <caret line="192" column="7" lean-forward="false" selection-start-line="188" selection-start-column="4" selection-end-line="197" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="226" column="33" lean-forward="false" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
       </provider>

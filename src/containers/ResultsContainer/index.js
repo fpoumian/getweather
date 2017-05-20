@@ -3,12 +3,18 @@ import PropTypes from 'prop-types'
 import Results from '../../components/Results'
 import * as utils from './utils'
 import WeatherService from '../../lib/WeatherService'
+import { browserHistory } from 'react-router'
 import WeatherServiceMock from '../../lib/__mocks__/WeatherService'
 import { OPEN_WEATHER_PUBLIC_KEY } from '../../constants/settings'
 
 class ResultsContainer extends Component {
   constructor (props) {
     super(props)
+
+    if (!utils.validateLocationQuery(props.location)) {
+      browserHistory.push('/')
+    }
+
     this.state = {
       isLoading: true,
       query: {},

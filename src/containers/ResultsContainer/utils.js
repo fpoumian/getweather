@@ -1,4 +1,5 @@
 import Place from '../../lib/Place'
+import { isEqual } from 'lodash'
 
 export const getHashSubstring = hash => hash.substring(1)
 export const validateUnitSystemHash = hash => ['#metric', '#imperial'].includes(hash)
@@ -14,6 +15,23 @@ export const getUnitSystemFromRequest = (hash, placeQuery) => {
       return 'metric'
     }
   }
+}
+
+export const validateLocationQuery = ({query}) => {
+  const queryArgs = Object.keys(query)
+
+  if (queryArgs.length !== 3) {
+    throw new Error('Insufficient number of arguments in request.')
+  }
+
+  if (!isEqual(queryArgs.sort(), ['aal1', 'country', 'locality'].sort())) {
+    throw new Error('Invalid arguments in request.')
+  }
+
+  const errors = queryArgs.filter(key => {
+    return typeof query[key] === 'undefined' || query[key] === ''
+  })
+  return errors.length === 0
 }
 
 export const getCurrentWeatherForPlace = (weatherService, placeQuery, options) => {

@@ -20,6 +20,54 @@ describe('validateUnitSystemHash', () => {
   })
 })
 
+describe('validateQuery', () => {
+  // Setup
+  const location1 = {
+    query: {
+      aal1: 'Texas',
+      country: 'United States',
+      locality: 'El Paso'
+    }
+  }
+
+  const location2 = {
+    query: {
+    }
+  }
+  const location3 = {
+    query: {
+      aal11: 'Texas',
+      locality: 'El Paso',
+      country: 'United States'
+    }
+  }
+
+  const location4 = {
+    query: {
+      aal1: '',
+      locality: 'El Paso',
+      country: 'United States'
+    }
+  }
+
+  // Test
+  it('Can validate the query in a correctly formatted request URL', () => {
+    expect(utils.validateLocationQuery(location1)).toBe(true)
+  })
+
+  it('Can throw error when insufficient arguments in request', () => {
+    expect(() => { utils.validateLocationQuery(location2) }).toThrow('Insufficient number of arguments in request')
+  })
+
+  it('Can throw error when incorrect arguments in request', () => {
+    expect(() => { utils.validateLocationQuery(location3) }).toThrow('Invalid arguments in request')
+  })
+
+  it('Can detect an invalid query', () => {
+    expect(utils.validateLocationQuery(location4)).toBe(false)
+  })
+})
+
 describe('getUnitSystemFromRequest', () => {
   // Setup
   const place1 = {
