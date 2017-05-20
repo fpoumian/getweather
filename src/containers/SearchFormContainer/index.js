@@ -15,6 +15,7 @@ import {
 } from './utils'
 
 /* eslint-disable no-undef */
+/* eslint-disable no-console */
 
 class SearchFormContainer extends Component {
   constructor (props) {
@@ -137,6 +138,11 @@ class SearchFormContainer extends Component {
       />
     )
   }
+}
+
+SearchFormContainer.propTypes = {
+  gScriptsLoaded: PropTypes.bool,
+  setScriptsState: PropTypes.func
 }
 
 export default SearchFormContainer

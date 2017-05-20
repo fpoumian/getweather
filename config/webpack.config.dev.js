@@ -186,6 +186,16 @@ module.exports = {
       inject: true,
       template: paths.appHtml,
     }),
+    new HtmlWebpackPlugin({
+      template: paths.appHtml,
+      filename: 'about/index.html',
+      inject: true
+    }),
+    new HtmlWebpackPlugin({
+      template: paths.appHtml,
+      filename: 'results/index.html',
+      inject: true
+    }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'development') { ... }. See `./env.js`.
     new webpack.DefinePlugin(env.stringified),

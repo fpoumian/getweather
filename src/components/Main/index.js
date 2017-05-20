@@ -1,11 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Grid, Sidebar, Segment} from 'semantic-ui-react'
+import { Grid, Sidebar, Segment } from 'semantic-ui-react'
 import { outerDiv, main, fullHeight } from './styles'
 import SidebarToggle from '../SidebarToggle'
 import Footer from '../Footer'
 import SidebarMenu from '../SidebarMenu'
-// import 'custom-semantic-ui/semantic/dist/semantic.css'
 import './styles.css'
 
 const Main = props => {
@@ -44,7 +43,8 @@ const Main = props => {
 
 Main.propTypes = {
   sidebarVisible: PropTypes.bool,
-  handleToggleClick: PropTypes.func
+  handleToggleClick: PropTypes.func,
+  children: PropTypes.object
 }
 
 export default Main

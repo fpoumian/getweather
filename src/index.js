@@ -5,7 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import ResultsContainer from './containers/ResultsContainer'
 import './index.css'
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute } from 'react-router'
 
 import { Provider } from 'react-redux'
 import store, { history } from './store'

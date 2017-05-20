@@ -1,5 +1,9 @@
 {
-  "extends": "standard",
+  "extends": [
+    "eslint:recommended",
+    "standard",
+    "plugin:react/recommended"
+  ],
   "plugins": [
     "react",
     "jsx-a11y",
@@ -17,5 +21,12 @@
     "test": false,
     "google": false,
     "jest": false
+  },
+  "rules": {
+    "react/jsx-uses-vars": ["error"],
+    "no-unused-vars": "off",
+    "standard/object-curly-even-spacing": "off",
+    "react/prop-types": 1,
+    "eol-last": 1
   }
 }

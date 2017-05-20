@@ -42,7 +42,8 @@ class ResultsContainer extends Component {
 }
 
 ResultsContainer.propTypes = {
-  switchUnitSystem: PropTypes.func
+  switchUnitSystem: PropTypes.func,
+  location: PropTypes.object
 }
 
 export default ResultsContainer
