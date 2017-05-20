@@ -14,9 +14,9 @@ const CurrentWeatherData = (props) => {
 }
 
 CurrentWeatherData.propTypes = {
-  temperature: PropTypes.object.isRequired,
+  temperature: PropTypes.object,
   unitSystem: PropTypes.string,
-  place: PropTypes.string.isRequired,
+  place: PropTypes.string,
   dt: PropTypes.number,
   wind: PropTypes.object,
   humidty: PropTypes.number
