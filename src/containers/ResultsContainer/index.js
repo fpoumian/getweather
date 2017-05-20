@@ -17,7 +17,7 @@ class ResultsContainer extends Component {
   }
 
   componentDidMount () {
-    const weatherService = new WeatherService(OPEN_WEATHER_PUBLIC_KEY)
+    const weatherService = new WeatherServiceMock(OPEN_WEATHER_PUBLIC_KEY)
     const {hash, query} = this.props.location
     const unitSystem = utils.getUnitSystemFromRequest(hash, query)
     this.props.switchUnitSystem(unitSystem)

@@ -43,7 +43,7 @@ const Main = props => {
 }
 
 Main.propTypes = {
-  sidebarVisible: PropTypes.func,
+  sidebarVisible: PropTypes.bool,
   handleToggleClick: PropTypes.func
 }
 

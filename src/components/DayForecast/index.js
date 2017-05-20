@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import TimeForecast from '../TimeForecast'
 import { Header } from 'semantic-ui-react'
+import moment from 'moment'
 
-const DayForecast = ({dayForecastData, day}) => {
+const DayForecast = ({dayForecastData, timestamp}) => {
   const mapDayForecastDataToTimeForecast = () => {
     return dayForecastData.map((timeData, index) => {
       return <TimeForecast timeForecastData={timeData} key={index}/>
@@ -13,7 +14,7 @@ const DayForecast = ({dayForecastData, day}) => {
   return (
     <div>
       <Header as="h3" attached="top">
-        {day}
+        {moment.unix(timestamp).format('dddd D')}
       </Header>
       {mapDayForecastDataToTimeForecast()}
     </div>
@@ -22,7 +23,7 @@ const DayForecast = ({dayForecastData, day}) => {
 
 DayForecast.propTypes = {
   dayForecastData: PropTypes.array,
-  day: PropTypes.string
+  timestamp: PropTypes.string
 }
 DayForecast.defaultProps = {}
 

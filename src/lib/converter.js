@@ -8,7 +8,7 @@ function run () {
   let i = 0
 
   const newList = list.map(item => {
-    const dt = timestamp.add(item.dt, `+${i}h`)
+    const dt = timestamp.add(parseInt(item.dt), `+${i}h`)
     i += 3
 
     return {
@@ -17,7 +17,7 @@ function run () {
     }
   })
 
-  const promises = newList.map(item => {
+  const promises = list.map(item => {
     return WeatherService.deriveWeatherData(item)
   })
 

@@ -16,6 +16,6 @@ export const sortByDay = (arr, key) => {
     if (timestamp.toString().length === 13) {
       timestamp = timestamp * 0.001
     }
-    return moment.unix(timestamp).format('ddd')
+    return moment.unix(timestamp).startOf('day').format('X')
   })
 }

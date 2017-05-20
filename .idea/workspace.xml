@@ -2,79 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78178394-d766-42e3-90d4-f1a4bb248f1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/About/__tests__/About.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Date/__tests__/Date..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/DayForecast/__tests__/DayForecast..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/__tests__/Footer..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Logo/__tests__/Logo..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Percentage/__tests__/Percentage..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarMenu/__tests__/SidebarMenu..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarToggle/__tests__/SidebarToggle..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Speed/__tests__/Speed..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Tabs/__tests__/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TimeForecast/__tests__/TimeForecast..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TimeForecastWeather/__tests__/TimeForecastWeather..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/UnitSystemToggle/__tests__/UnitSystemToggle..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/CurrentWeatherDataContainer/__tests__/CurrentWeatherDataContainer..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/MainContainer/__tests__/MainContainer..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/TabsContainer/__tests__/TabsContainer..js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/TimeForecastWeatherContainer/__tests__/TimeForecastWeatherContainer..js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Forecast/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Home/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Home/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Logo/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Logo/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/UnitSystemToggle/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/WeatherGraphic/placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/WeatherGraphic/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/Celsius.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/Fahrenheit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/TemperatureUnit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/__tests__/Temperature.test.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/CurrentWeather/__tests__/CurrentWeather.test.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeather/__tests__/CurrentWeather.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/CurrentWeatherContext/__tests__/CurrentWeatherContext.test.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeatherContext/__tests__/CurrentWeather.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/CurrentWeatherData/__tests__/CurrentWeatherData.test.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeatherData/__tests__/CurrentWeatherData.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/CurrentWeatherTemperature/__tests__/CurrentWeatherTemperature.test.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeatherTemperature/__tests__/CurrentWeatherTemperature.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Forecast/__tests__/Forecast.test.js" afterPath="$PROJECT_DIR$/src/components/Forecast/__tests__/Forecast.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Forecast/utils.js" afterPath="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Home/__tests__/Home.test.js" afterPath="$PROJECT_DIR$/src/components/Home/__tests__/Home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Main/__tests__/Main.test.js" afterPath="$PROJECT_DIR$/src/components/Main/__tests__/Main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Results/__tests__/index.js" afterPath="$PROJECT_DIR$/src/components/Results/__tests__/Results.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/SearchForm/__tests__/index..js" afterPath="$PROJECT_DIR$/src/components/SearchForm/__tests__/SearchForm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/TimeForecastHour/index.js" afterPath="$PROJECT_DIR$/src/components/_TimeForecastHour/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/CurrentWeatherGraphic.js" afterPath="$PROJECT_DIR$/src/components/WeatherGraphic/__tests__/WeatherGraphic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/index.js" afterPath="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/SearchFormContainer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/containers/SidebarOverlayContainer/index.js" afterPath="$PROJECT_DIR$/src/containers/_SidebarOverlayContainer/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lib/__tests__/PlaceQuery.test.js" afterPath="$PROJECT_DIR$/src/lib/__tests__/Place.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lib/__tests__/WeatherQuery.test.js" afterPath="$PROJECT_DIR$/src/lib/__tests__/WeatherQuery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lib/__tests__/WeatherService.tests.js" afterPath="$PROJECT_DIR$/src/lib/__tests__/WeatherService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lib/__tests__/utils.test.js" afterPath="$PROJECT_DIR$/src/lib/__tests__/utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.test.js" afterPath="$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/About/index.js" afterPath="$PROJECT_DIR$/src/components/About/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CurrentWeatherContext/index.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeatherContext/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CurrentWeatherData/index.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeatherData/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CurrentWeatherGraphic/index.js" afterPath="$PROJECT_DIR$/src/components/CurrentWeatherGraphic/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Date/index.js" afterPath="$PROJECT_DIR$/src/components/Date/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Footer/index.js" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home/index.js" afterPath="$PROJECT_DIR$/src/components/Home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Logo/index.js" afterPath="$PROJECT_DIR$/src/components/Logo/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/DayForecast/index.js" afterPath="$PROJECT_DIR$/src/components/DayForecast/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main/index.js" afterPath="$PROJECT_DIR$/src/components/Main/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Results/index.js" afterPath="$PROJECT_DIR$/src/components/Results/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SidebarMenu/index.js" afterPath="$PROJECT_DIR$/src/components/SidebarMenu/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tabs/utils.js" afterPath="$PROJECT_DIR$/src/components/Tabs/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UnitSystemToggle/index.js" afterPath="$PROJECT_DIR$/src/components/UnitSystemToggle/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/WeatherGraphic/index.js" afterPath="$PROJECT_DIR$/src/components/WeatherGraphic/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/App/index.js" afterPath="$PROJECT_DIR$/src/containers/App/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/utils.js" afterPath="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/SearchFormContainer/index.js" afterPath="$PROJECT_DIR$/src/containers/SearchFormContainer/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/TabsContainer/index.js" afterPath="$PROJECT_DIR$/src/containers/TabsContainer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main/styles.css" afterPath="$PROJECT_DIR$/src/components/Main/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tabs/index.js" afterPath="$PROJECT_DIR$/src/components/Tabs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" afterPath="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/converter.js" afterPath="$PROJECT_DIR$/src/lib/converter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.js" afterPath="$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/timegroup/timegroup.js" afterPath="$PROJECT_DIR$/src/lib/timegroup/timegroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/utils.js" afterPath="$PROJECT_DIR$/src/lib/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mocks/data/forecastData.json" afterPath="$PROJECT_DIR$/src/mocks/data/forecastData.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mocks/data/forecastDataAll.json" afterPath="$PROJECT_DIR$/src/mocks/data/forecastDataAll.json" />
     </list>
@@ -93,7 +29,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Main/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,11 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/SearchForm/index.js" />
-        <option value="$PROJECT_DIR$/src/components/SidebarOverlay/index.js" />
-        <option value="$PROJECT_DIR$/src/components/WeatherGraphic/data.json" />
-        <option value="$PROJECT_DIR$/src/components/TimeForecastWeather/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/CurrentWeatherContext/index.js" />
         <option value="$PROJECT_DIR$/src/components/CurrentWeatherContext/__tests__/CurrentWeatherContext.test.js" />
@@ -170,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
         <option value="$PROJECT_DIR$/src/components/Home/index.js" />
         <option value="$PROJECT_DIR$/src/components/Logo/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Main/index.js" />
         <option value="$PROJECT_DIR$/src/components/Results/index.js" />
         <option value="$PROJECT_DIR$/src/components/Results/__tests__/Results.js" />
         <option value="$PROJECT_DIR$/src/components/SearchForm/__tests__/SearchForm.js" />
@@ -187,8 +138,6 @@
         <option value="$PROJECT_DIR$/src/components/TimeForecastWeather/__tests__/TimeForecastWeather..js" />
         <option value="$PROJECT_DIR$/src/components/UnitSystemToggle/__tests__/UnitSystemToggle..js" />
         <option value="$PROJECT_DIR$/src/components/UnitSystemToggle/index.js" />
-        <option value="$PROJECT_DIR$/src/mocks/data/forecastDataAll.json" />
-        <option value="$PROJECT_DIR$/src/mocks/data/forecastData.json" />
         <option value="$PROJECT_DIR$/src/containers/App/index.js" />
         <option value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/index.js" />
         <option value="$PROJECT_DIR$/src/containers/ResultsContainer/__tests__/ResultsContainer.js" />
@@ -196,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/SearchFormContainer.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/__tests__/utils.js" />
         <option value="$PROJECT_DIR$/src/containers/SearchFormContainer/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/TabsContainer/index.js" />
         <option value="$PROJECT_DIR$/src/containers/TabsContainer/__tests__/TabsContainer..js" />
         <option value="$PROJECT_DIR$/src/lib/utils.js" />
         <option value="$PROJECT_DIR$/src/lib/__tests__/Temperature.test.js" />
@@ -204,6 +152,15 @@
         <option value="$PROJECT_DIR$/src/lib/__tests__/utils.test.js" />
         <option value="$PROJECT_DIR$/src/lib/timegroup/timegroup.js" />
         <option value="$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.js" />
+        <option value="$PROJECT_DIR$/src/components/Main/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/TabsContainer/index.js" />
+        <option value="$PROJECT_DIR$/src/components/DayForecast/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Tabs/index.js" />
+        <option value="$PROJECT_DIR$/src/mocks/data/forecastData.json" />
+        <option value="$PROJECT_DIR$/src/lib/converter.js" />
+        <option value="$PROJECT_DIR$/src/mocks/data/forecastDataAll.json" />
+        <option value="$PROJECT_DIR$/src/containers/ResultsContainer/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Main/styles.css" />
       </list>
     </option>
   </component>
@@ -302,6 +259,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quickweather" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -360,14 +371,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Jest.Run Jest">
-    <configuration default="false" name="WeatherService.tests.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/lib/__tests__/WeatherService.tests.js" />
-      <method />
-    </configuration>
     <configuration default="false" name="utils.js (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
@@ -400,6 +403,14 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WeatherService.js" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/lib/__tests__/WeatherService.js" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -916,25 +927,25 @@
       <item index="38" class="java.lang.String" itemvalue="Jest.TimeForecast..js" />
       <item index="39" class="java.lang.String" itemvalue="Jest.TimeForecastWeather..js" />
       <item index="40" class="java.lang.String" itemvalue="Jest.UnitSystemToggle..js" />
-      <item index="41" class="java.lang.String" itemvalue="Jest.WeatherService.tests.js" />
-      <item index="42" class="java.lang.String" itemvalue="Jest.CurrentWeatherDataContainer..js" />
-      <item index="43" class="java.lang.String" itemvalue="Jest.MainContainer..js" />
-      <item index="44" class="java.lang.String" itemvalue="Jest.ResultsContainer.js" />
-      <item index="45" class="java.lang.String" itemvalue="Jest.utils.js (1)" />
-      <item index="46" class="java.lang.String" itemvalue="Jest.SearchFormContainer.js" />
-      <item index="47" class="java.lang.String" itemvalue="Jest.utils.js (3)" />
-      <item index="48" class="java.lang.String" itemvalue="Jest.TabsContainer..js" />
-      <item index="49" class="java.lang.String" itemvalue="Jest.TimeForecastWeatherContainer..js" />
-      <item index="50" class="java.lang.String" itemvalue="Jest.timegroup.js" />
-      <item index="51" class="java.lang.String" itemvalue="npm.start" />
+      <item index="41" class="java.lang.String" itemvalue="Jest.CurrentWeatherDataContainer..js" />
+      <item index="42" class="java.lang.String" itemvalue="Jest.MainContainer..js" />
+      <item index="43" class="java.lang.String" itemvalue="Jest.ResultsContainer.js" />
+      <item index="44" class="java.lang.String" itemvalue="Jest.utils.js (1)" />
+      <item index="45" class="java.lang.String" itemvalue="Jest.SearchFormContainer.js" />
+      <item index="46" class="java.lang.String" itemvalue="Jest.utils.js (3)" />
+      <item index="47" class="java.lang.String" itemvalue="Jest.TabsContainer..js" />
+      <item index="48" class="java.lang.String" itemvalue="Jest.TimeForecastWeatherContainer..js" />
+      <item index="49" class="java.lang.String" itemvalue="Jest.timegroup.js" />
+      <item index="50" class="java.lang.String" itemvalue="npm.start" />
+      <item index="51" class="java.lang.String" itemvalue="Jest.WeatherService.js" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="npm.start" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.timegroup.js" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.utils.js (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.utils.js (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.WeatherService.tests.js" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.WeatherService.js" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.timegroup.js" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.utils.js (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.utils.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -990,44 +1001,44 @@
       <workItem from="1495127013178" duration="25172000" />
       <workItem from="1495169401590" duration="571000" />
       <workItem from="1495170761318" duration="4373000" />
-      <workItem from="1495213045800" duration="8220000" />
+      <workItem from="1495213045800" duration="17380000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlaceQuery_test_js - 2017.05.19 at 12h 57m 07s.xml">
-      <configuration name="PlaceQuery.test.js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="Run_Jest - 2017.05.19 at 12h 48m 09s.xml">
+    <history-entry file="Run_Jest - 2017.05.19 at 18h 32m 11s.xml">
       <configuration name="Run Jest" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Run_Jest - 2017.05.19 at 13h 07m 57s.xml">
-      <configuration name="Run Jest" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherService_js - 2017.05.19 at 18h 00m 35s.xml">
+      <configuration name="WeatherService.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TabsContainer__js - 2017.05.19 at 12h 44m 38s.xml">
-      <configuration name="TabsContainer..js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="WeatherService_js - 2017.05.19 at 18h 02m 01s.xml">
+      <configuration name="WeatherService.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TabsContainer__js - 2017.05.19 at 12h 46m 09s.xml">
-      <configuration name="TabsContainer..js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="TimeForecastWeatherContainer__js - 2017.05.19 at 12h 47m 31s.xml">
-      <configuration name="TimeForecastWeatherContainer..js" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 02m 10s.xml">
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 30m 26s.xml">
       <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="timegroup_js - 2017.05.19 at 13h 02m 28s.xml">
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 33m 33s.xml">
       <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="utils_test_js_(1) - 2017.05.19 at 12h 59m 29s.xml">
-      <configuration name="utils.test.js (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 33m 43s.xml">
+      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="utils_test_js_(1) - 2017.05.19 at 12h 59m 36s.xml">
-      <configuration name="utils.test.js (1)" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 34m 38s.xml">
+      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 36m 37s.xml">
+      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 43m 52s.xml">
+      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="timegroup_js - 2017.05.19 at 13h 46m 57s.xml">
+      <configuration name="timegroup.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="514326000" />
+    <option name="totallyTimeSpent" value="523486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1041,16 +1052,16 @@
   <component name="ToolWindowManager">
     <frame x="1363" y="25" width="1916" height="1058" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14626391" sideWeight="0.5678879" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27239004" sideWeight="0.8651685" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.2845787" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33189654" sideWeight="0.5744568" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26293105" sideWeight="0.45839956" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5048701" sideWeight="0.5416004" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14626391" sideWeight="0.43211207" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52047414" sideWeight="0.55590886" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27239004" sideWeight="0.13483146" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.4935065" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23814656" sideWeight="0.43561208" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52047414" sideWeight="0.44409114" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.49390566" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1061,6 +1072,27 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21875" sideWeight="0.2845787" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33189654" sideWeight="0.5744568" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21103896" sideWeight="0.556962" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38272524" sideWeight="0.11934157" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21103896" sideWeight="0.443038" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38272524" sideWeight="0.88065845" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26293105" sideWeight="0.45839956" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.4935065" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.49390566" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1073,75 +1105,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherGraphic/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WeatherGraphic/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Speed/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Speed/__tests__/Speed..js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tabs/__tests__/Tabs..js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tabs/__tests__/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Tabs/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1155,16 +1123,6 @@
         <state relative-caret-position="42">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tabs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,60 +1186,6 @@
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mocks/data/forecastData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="77" column="20" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!block;n#city#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#coord#0;n#!!block;n#city#0;n#!!top" expanded="false" />
-            <element signature="e#217#245#0" expanded="false" />
-            <element signature="e#261#314#0" expanded="false" />
-            <element signature="e#332#358#0" expanded="false" />
-            <element signature="e#377#516#0" expanded="false" />
-            <element signature="e#387#508#0" expanded="false" />
-            <element signature="e#532#745#0" expanded="false" />
-            <element signature="e#835#863#0" expanded="false" />
-            <element signature="e#879#932#0" expanded="false" />
-            <element signature="e#950#976#0" expanded="false" />
-            <element signature="e#995#1134#0" expanded="false" />
-            <element signature="e#1005#1126#0" expanded="false" />
-            <element signature="e#1150#1363#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mocks/data/forecastDataAll.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!block;n#city#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#coord#0;n#!!block;n#city#0;n#!!top" expanded="false" />
-            <element signature="e#217#245#0" expanded="false" />
-            <element signature="e#261#375#0" expanded="false" />
-            <element signature="e#304#367#0" expanded="false" />
-            <element signature="e#393#419#0" expanded="false" />
-            <element signature="e#438#577#0" expanded="false" />
-            <element signature="e#448#569#0" expanded="false" />
-            <element signature="e#593#986#0" expanded="false" />
-            <element signature="e#752#815#0" expanded="false" />
-            <element signature="e#837#897#0" expanded="false" />
-            <element signature="e#915#978#0" expanded="false" />
-            <element signature="e#1076#1104#0" expanded="false" />
-            <element signature="e#1120#1235#0" expanded="false" />
-            <element signature="e#1163#1227#0" expanded="false" />
-            <element signature="e#1253#1279#0" expanded="false" />
-            <element signature="e#1298#1437#0" expanded="false" />
-            <element signature="e#1308#1429#0" expanded="false" />
-            <element signature="e#1453#1845#0" expanded="false" />
-            <element signature="e#1612#1674#0" expanded="false" />
-            <element signature="e#1696#1759#0" expanded="false" />
-            <element signature="e#1777#1837#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1406,16 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/TabsContainer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/TabsContainer/__tests__/TabsContainer..js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1478,16 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/Place.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1504,36 +1388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/timegroup/timegroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/__tests__/currentLocation.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/converter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/__tests__/WeatherService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1561,7 +1419,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1570,6 +1428,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mocks/data/dates.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2016">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/timegroup/__tests__/timegroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="74" lean-forward="true" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/timegroup/timegroup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Forecast/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DayForecast/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/TabsContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tabs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/WeatherGraphic/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mocks/data/forecastData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#city#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#coord#0;n#!!block;n#city#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mocks/data/forecastDataAll.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36099">
+          <caret line="1769" column="22" lean-forward="false" selection-start-line="1769" selection-start-column="22" selection-end-line="1769" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!block;n#city#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#coord#0;n#!!block;n#city#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/converter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ResultsContainer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/__tests__/WeatherService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>

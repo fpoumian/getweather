@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Menu, Segment, Grid } from 'semantic-ui-react'
+import moment from 'moment'
 import './styles.css'
 import { mapObjectKeys } from './utils'
 import DayForecast from '../DayForecast'
@@ -10,19 +11,22 @@ const Tabs = ({activeItem, onItemClick, days}) => {
     display: 'none'
   }
 
-  const mapObjectKeysToTabs = obj => {
-    return mapObjectKeys(obj, (key, index) => {
+  const getDayFromTimestamp = timestamp => moment.unix(timestamp).format('ddd')
+
+  const mapTimestampsToTabs = obj => {
+    return mapObjectKeys(obj, (timestamp, index) => {
       return (
-        <Menu.Item name={key} active={activeItem === key} onClick={onItemClick} index={index} key={index}/>
+        <Menu.Item name={timestamp} content={getDayFromTimestamp(timestamp)} active={activeItem === timestamp} onClick={onItemClick} index={index} key={index}/>
       )
     })
   }
 
-  const mapObjectKeysToTabContent = obj => {
-    return mapObjectKeys(obj, (key, index, obj) => {
+  const mapTimestampsToTabContent = obj => {
+    return mapObjectKeys(obj, (timestamp, index, obj) => {
+      const day = getDayFromTimestamp(timestamp)
       return (
-        <Segment attached='bottom' key={index} className={activeItem !== key ? 'hide-on-computer' : null}>
-          <DayForecast dayForecastData={obj[key]} day={key}/>
+        <Segment attached='bottom' key={index} className={activeItem !== timestamp ? 'hide-on-computer' : null}>
+          <DayForecast dayForecastData={obj[timestamp]} timestamp={timestamp}/>
         </Segment>
       )
     })
@@ -31,10 +35,10 @@ const Tabs = ({activeItem, onItemClick, days}) => {
   return (
     <div style={{width: '100%'}}>
           <Menu attached='top' tabular stackable widths={6}>
-            {mapObjectKeysToTabs(days)}
+            {mapTimestampsToTabs(days)}
           </Menu>
 
-      {mapObjectKeysToTabContent(days)}
+      {mapTimestampsToTabContent(days)}
     </div>
   )
 }
