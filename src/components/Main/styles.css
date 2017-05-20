@@ -104,6 +104,10 @@ ui.default.dropdown:not(.button) > .text, .ui.dropdown:not(.button) > .default.t
   color: inherit;
 }
 
+.ui.search.selection.dropdown>input.search {
+  padding: inherit;
+}
+
 .sidebar-toggle {
   position: absolute;
   top: 3vh;
