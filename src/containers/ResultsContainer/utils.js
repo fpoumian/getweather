@@ -1,4 +1,4 @@
-import Place from '../../lib/Place'
+import Place from 'lib/Place'
 import { isEqual } from 'lodash'
 
 export const getHashSubstring = hash => hash.substring(1)

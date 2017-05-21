@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './containers/App'
-import Home from './components/Home'
-import About from './components/About'
-import ResultsContainer from './containers/ResultsContainer'
-import './index.css'
 import { Router, Route, IndexRoute } from 'react-router'
-
 import { Provider } from 'react-redux'
+
+import App from 'containers/App'
+import Home from 'components/Home'
+import About from 'components/About/index.js'
+import ResultsContainer from 'containers/ResultsContainer'
+import './index.css'
 import store, { history } from './store'
 
 const router = (

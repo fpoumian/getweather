@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Tabs from '../../components/Tabs'
+
+import Tabs from 'components/Tabs'
 
 class TabsContainer extends Component {
   constructor (props) {

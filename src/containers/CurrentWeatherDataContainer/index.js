@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import CurrentWeatherData from '../../components/CurrentWeatherData'
-import {bindActionCreators} from 'redux'
-import {connect} from 'react-redux'
-import * as actionCreators from '../../actions/'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+
+import CurrentWeatherData from 'components/CurrentWeatherData'
+import * as actionCreators from 'actions/'
 
 function mapStateToProps ({unitSystem}) {
   return {

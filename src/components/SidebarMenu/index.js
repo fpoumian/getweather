@@ -1,9 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Menu } from 'semantic-ui-react'
 import {Link} from 'react-router'
 
-const SidebarMenu = (props) => {
+const SidebarMenu = () => {
   return (
     <Menu
       vertical

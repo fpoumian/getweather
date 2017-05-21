@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid, Sidebar, Segment } from 'semantic-ui-react'
 import { outerDiv, main, fullHeight } from './styles'
-import SidebarToggle from '../SidebarToggle'
-import Footer from '../Footer'
-import SidebarMenu from '../SidebarMenu'
+import SidebarToggle from 'components/SidebarToggle'
+import Footer from 'components/Footer'
+import SidebarMenu from 'components/SidebarMenu'
 import './styles.css'
 
 const Main = props => {

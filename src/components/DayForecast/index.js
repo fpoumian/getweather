@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import TimeForecast from '../TimeForecast'
 import { Header } from 'semantic-ui-react'
 import moment from 'moment'
+
+import TimeForecast from 'components/TimeForecast'
 
 const DayForecast = ({dayForecastData, timestamp}) => {
   const mapDayForecastDataToTimeForecast = () => {

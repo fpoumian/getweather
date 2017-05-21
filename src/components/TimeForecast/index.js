@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid, Divider } from 'semantic-ui-react'
 import { pick } from 'lodash'
-import Date from '../Date'
-import TimeForecastWeatherContainer from '../../containers/TimeForecastWeatherContainer'
+
+import Date from 'components/Date'
+import TimeForecastWeatherContainer from 'containers/TimeForecastWeatherContainer'
 
 const TimeForecast = ({timeForecastData}) => {
   const weatherData = pick(timeForecastData, ['main', 'weather'])
@@ -25,6 +26,5 @@ const TimeForecast = ({timeForecastData}) => {
 TimeForecast.propTypes = {
   timeForecastData: PropTypes.object
 }
-TimeForecast.defaultProps = {}
 
 export default TimeForecast

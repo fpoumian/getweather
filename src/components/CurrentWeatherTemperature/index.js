@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import UnitSystemToggle from '../UnitSystemToggle'
+import UnitSystemToggle from 'components/UnitSystemToggle'
 import styles from './styles'
 
 const CurrentWeatherTemperature = (props) => {

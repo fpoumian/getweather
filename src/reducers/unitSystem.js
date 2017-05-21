@@ -1,4 +1,4 @@
-import * as types from '../constants/action-types'
+import * as types from 'constants/action-types'
 
 export default function unitSystem (state = 'metric', action) {
   switch (action.type) {

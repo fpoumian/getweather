@@ -1,7 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-const Footer = (props) => {
+const Footer = () => {
   const styles = {
     position: 'absolute',
     bottom: '10px',

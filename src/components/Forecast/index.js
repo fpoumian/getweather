@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid } from 'semantic-ui-react'
 import 'react-tabs/style/react-tabs.css'
-import { sortByDay } from '../../lib/timegroup/timegroup'
-import TabsContainer from '../../containers/TabsContainer'
+
+import { sortByDay } from 'lib/timegroup/timegroup'
+import TabsContainer from 'containers/TabsContainer'
 
 const Forecast = props => {
   const sortedDateList = sortByDay(props.list, 'dt')

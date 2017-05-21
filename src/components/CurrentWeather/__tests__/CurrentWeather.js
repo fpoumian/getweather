@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import CurrentWeather from '../index'
-import CurrentWeatherGraphic from '../../CurrentWeatherGraphic'
-import CurrentWeatherDataContainer from '../../../containers/CurrentWeatherDataContainer'
+import CurrentWeatherGraphic from 'components/CurrentWeatherGraphic'
+import CurrentWeatherDataContainer from 'containers/CurrentWeatherDataContainer'
 
 describe('<CurrentWeather/>', () => {
   const props = {

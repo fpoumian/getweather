@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import CurrentWeatherData from '../index'
-import CurrentWeatherTemperature from '../../CurrentWeatherTemperature'
-import CurrentWeatherContext from '../../CurrentWeatherContext'
+import CurrentWeatherTemperature from 'components/CurrentWeatherTemperature'
+import CurrentWeatherContext from 'components/CurrentWeatherContext'
 
 describe('<CurrentWeatherData/>', () => {
   it('renders without crashing', () => {

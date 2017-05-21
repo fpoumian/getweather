@@ -1,6 +1,6 @@
-import WeatherService from '../../../lib/__mocks__/WeatherService'
-import currentWeatherDataAll from '../../../mocks/data/currentWeatherDataAll.json'
-import forecastDataAll from '../../../mocks/data/forecastDataAll.json'
+import WeatherService from 'lib/__mocks__/WeatherService'
+import currentWeatherDataAll from 'mocks/data/currentWeatherDataAll.json'
+import forecastDataAll from 'mocks/data/forecastDataAll.json'
 import * as utils from '../utils'
 
 describe('getHashSubstring', () => {

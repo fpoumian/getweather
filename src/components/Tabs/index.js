@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import { Menu, Segment, Grid } from 'semantic-ui-react'
 import moment from 'moment'
 import './styles.css'
+
 import { mapObjectKeys } from './utils'
-import DayForecast from '../DayForecast'
+import DayForecast from 'components/DayForecast'
 
 const Tabs = ({activeItem, onItemClick, days}) => {
   const hide = {
@@ -16,7 +17,12 @@ const Tabs = ({activeItem, onItemClick, days}) => {
   const mapTimestampsToTabs = obj => {
     return mapObjectKeys(obj, (timestamp, index) => {
       return (
-        <Menu.Item name={timestamp} content={getDayFromTimestamp(timestamp)} active={activeItem === timestamp} onClick={onItemClick} index={index} key={index}/>
+        <Menu.Item
+          name={timestamp}
+          content={getDayFromTimestamp(timestamp)}
+          active={activeItem === timestamp}
+          onClick={onItemClick} index={index}
+          key={index}/>
       )
     })
   }

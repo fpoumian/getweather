@@ -1,4 +1,4 @@
-import forecastData from '../mocks/data/forecastData.json'
+import forecastData from 'mocks/data/forecastData.json'
 import WeatherService from './WeatherService'
 import fs from 'fs'
 import timestamp from 'unix-timestamp'

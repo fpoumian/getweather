@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react'
-import Main from '../../components/Main'
+
+import Main from 'components/Main'
 
 class MainContainer extends Component {
   constructor (props) {
@@ -32,12 +33,9 @@ class MainContainer extends Component {
             handleToggleClick={this.toggleVisibility}
             gScriptsLoaded={googleScriptsLoaded}
             setScriptsState={this.setScriptsState}
-            sidebarVisible={this.state.sidebarVisible}/>
+            sidebarVisible={sidebarVisible}/>
     )
   }
 }
-
-MainContainer.propTypes = {}
-MainContainer.defaultProps = {}
 
 export default MainContainer

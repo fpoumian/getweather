@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { browserHistory } from 'react-router'
 import load from 'load-script'
-import SearchForm from '../../components/SearchForm'
+import SearchForm from 'components/SearchForm'
 
 import {
   getPlacePredictions,

@@ -1,7 +1,8 @@
 import React from 'react'
 import { Grid } from 'semantic-ui-react'
-import Logo from '../Logo/index'
-import SearchFormContainer from '../../containers/SearchFormContainer'
+
+import Logo from 'components/Logo'
+import SearchFormContainer from 'containers/SearchFormContainer'
 
 const Home = props => {
   return (

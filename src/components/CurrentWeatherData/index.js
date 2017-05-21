@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid } from 'semantic-ui-react'
-import CurrentWeatherTemperature from '../CurrentWeatherTemperature'
-import CurrentWeatherContext from '../CurrentWeatherContext'
+
+import CurrentWeatherTemperature from 'components/CurrentWeatherTemperature'
+import CurrentWeatherContext from 'components/CurrentWeatherContext'
 
 const CurrentWeatherData = (props) => {
   return (

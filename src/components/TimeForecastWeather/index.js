@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid } from 'semantic-ui-react'
-import WeatherGraphic from '../WeatherGraphic'
+
+import WeatherGraphic from 'components/WeatherGraphic'
 
 const TimeForecastWeather = ({weatherData, unitSystem}) => {
   const {temp} = weatherData.main

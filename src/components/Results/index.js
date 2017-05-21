@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid, Loader, Dimmer } from 'semantic-ui-react'
-import CurrentWeather from '../../components/CurrentWeather/index'
-import Forecast from '../../components/Forecast/index'
+import CurrentWeather from 'components/CurrentWeather/index'
+import Forecast from 'components/Forecast/index'
 import './styles.css'
 
 const Results = props => {
