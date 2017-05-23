@@ -188,12 +188,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: paths.appHtml,
-      filename: 'about/index.html',
-      inject: true
-    }),
-    new HtmlWebpackPlugin({
-      template: paths.appHtml,
-      filename: 'results/index.html',
+      filename: 'about.html',
       inject: true
     }),
     // Makes some environment variables available to the JS code, for example:

@@ -204,24 +204,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: paths.appHtml,
-      filename: 'about/index.html',
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeRedundantAttributes: true,
-        useShortDoctype: true,
-        removeEmptyAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        keepClosingSlash: true,
-        minifyJS: true,
-        minifyCSS: true,
-        minifyURLs: true
-      }
-    }),
-    new HtmlWebpackPlugin({
-      template: paths.appHtml,
-      filename: 'results/index.html',
+      filename: '200.html',
       inject: true,
       minify: {
         removeComments: true,
