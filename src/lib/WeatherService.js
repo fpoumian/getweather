@@ -103,7 +103,7 @@ export default class WeatherService {
   }
 }
 
-WeatherService.baseEndpointUrl = 'http://api.openweathermap.org/data/2.5'
+WeatherService.baseEndpointUrl = 'https://api.openweathermap.org/data/2.5'
 
 WeatherService.temperatureDirectives = [{
   key: 'imperial',
